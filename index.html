@@ -1,7 +1,40 @@
-<html>
+<!doctype html>
+<html lang="pt-br">
   <head>
     <title>Método MicroInfo - Método Profissionalizante</title>
+    <meta charset="utf-8" />
   </head>
   <body>
+   <div class="app-main"></div>
+   <script src="src/dist/base.js"></script>
+   <script id="app-main" type="text/x-handlebars-template">
+     <div class="region">
+     Olá, {{name}}!
+     </div>
+   </script>
+
+   <script>
+
+$(function(){
+var
+	Item = Backbone.View.extend({
+		template: '#app-main',
+		el: '.app-main',
+		options: {
+		   data: {
+			name: 'Carlos Henrique'
+		   }
+		},
+           render: function() {
+              var
+		template =  Handlebars.compile($(this.template).html());
+		this.$el.html(template(this.options.data));
+	   }
+	}),
+item = new Item();
+
+item.render();
+});
+   </script>
   </body>
 </html>
