@@ -4,6 +4,3 @@
 @import '../../vendors/inspinia/inspinia.css';
 @import '../../vendors/inspinia/style.css';
 
-body.landing-page {
-  background: #000;
-}
