@@ -1,0 +1,9 @@
+@import '../../vendors/bootstrap/bootstrap.css';
+@import '../../vendors/animate/animate.css';
+@import '../../vendors/font-awesome/css/font-awesome.min.css';
+@import '../../vendors/inspinia/inspinia.css';
+@import '../../vendors/inspinia/style.css';
+
+body.landing-page {
+  background: #000;
+}

@@ -1,9 +1,10 @@
   import gulp    from 'gulp';
   import uglify  from 'gulp-uglify';
   import concat  from 'gulp-concat';
+  import sourcemaps from 'gulp-sourcemaps';
 
   gulp.task('scripts:base', () => {
-    gulp.src([
+    return gulp.src([
       './node_modules/jquery/dist/jquery.min.js',
       './node_modules/underscore/underscore-min.js',
       './node_modules/backbone/backbone-min.js',
@@ -14,4 +15,16 @@
     .pipe(gulp.dest('./src/dist/'));
   });
 
-  gulp.task('scripts', ['scripts:base']);
+  gulp.task('scripts:application', () => {
+    return gulp.src([
+      './src/app.js',
+      './src/component/**/*.js',
+    ], {base: './'})
+    .pipe(sourcemaps.init())
+    .pipe(uglify())
+    .pipe(concat('application.js'))
+    .pipe(sourcemaps.write('./src/maps'))
+    .pipe(gulp.dest('./src/dist/'));
+  });
+
+  gulp.task('scripts', ['scripts:base', 'scripts:application']);

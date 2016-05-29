@@ -1,40 +1,23 @@
 <!doctype html>
 <html lang="pt-br">
-  <head>
-    <title>Método MicroInfo - Método Profissionalizante</title>
+
+<head>
     <meta charset="utf-8" />
-  </head>
-  <body>
-   <div class="app-main"></div>
-   <script src="src/dist/base.js"></script>
-   <script id="app-main" type="text/x-handlebars-template">
-     <div class="region">
-     Olá, {{name}}!
-     </div>
-   </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-   <script>
+    <title>Método MicroInfo - Método Profissionalizante</title>
 
-$(function(){
-var
-	Item = Backbone.View.extend({
-		template: '#app-main',
-		el: '.app-main',
-		options: {
-		   data: {
-			name: 'Carlos Henrique'
-		   }
-		},
-           render: function() {
-              var
-		template =  Handlebars.compile($(this.template).html());
-		this.$el.html(template(this.options.data));
-	   }
-	}),
-item = new Item();
+    <link href="src/dist/app.css" rel="stylesheet" media="screen" />
+</head>
+<body class="landing-page">
+    <div class="app-main"></div>
+    <script src="src/dist/base.js"></script>
+    <script src="src/dist/templates.js"></script>
+    <script src="src/dist/application.js"></script>
+</body>
 
-item.render();
-});
-   </script>
-  </body>
 </html>
+
