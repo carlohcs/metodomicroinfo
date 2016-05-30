@@ -7,7 +7,10 @@
 
   gulp.task('styles', () => {
     // gulp.src('src/**/*.less') // , {base: 'src'}
-    gulp.src(['src/vendors.less', 'src/app.less']) // , {base: 'src'}
+    gulp.src([
+        'src/vendors.less',
+        'src/app.less',
+        'src/component/**/*.less']) // , {base: 'src'}
        /*.pipe(order([
         'src/vendors.less',
         'src/app.less'

@@ -4,3 +4,30 @@
 @import '../../vendors/inspinia/inspinia.css';
 @import '../../vendors/inspinia/style.css';
 
+.landing-page section p {
+  font-size: 16px;
+  color: #333;
+}
+.landing-page .features h2 {
+  font-size: 30px;
+  margin-top: 5px;
+}
+.landing-page .color-white {
+  color: #fff;
+}
+.landing-page .background-blue {
+  background-color: #1c7dc6;
+}
+.landing-page .text-emphasys {
+  font-weight: 700;
+  font-size: 38px;
+  text-transform: uppercase;
+  text-shadow: none;
+  letter-spacing: -1.5px;
+}
+
+.footer {
+  position: relative;
+  margin: 0;
+}
+
