@@ -15,6 +15,9 @@
 .landing-page .color-white {
   color: #fff;
 }
+.landing-page .color-orange {
+  color: #f5863d;
+}
 .landing-page .background-blue {
   background-color: #1c7dc6;
 }
@@ -31,3 +34,47 @@
   margin: 0;
 }
 
+.landing-page .header .navbar.navbar-scroll .navbar-brand {
+  background: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+}
+.landing-page .header .navbar.navbar-scroll .navbar-brand:hover {
+  background: none;
+}
+.landing-page .header .navbar.navbar-scroll .navbar-brand .brand {
+  padding: 0;
+}
+
+#container-product-description {
+  background: url('http://cbmnetworks.com/wp-content/uploads/2014/05/prepare-for-future.jpg') no-repeat;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+}
+#container-product-description .center {
+  height: 100%;
+  color: #FFF;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  z-index: 2;
+}
+#container-product-description p {
+  font-size: 16px;
+}
+#container-product-description i {
+  color: #428BCA;
+}
+/*Normal state*/
+.header-hero {
+  /*padding-top: 50px;*/
+  padding-bottom: 80px;
+  position: relative;
+  text-align: center;
+}
+.header-hero h1 {
+  font-size: 5.75rem;
+  line-height: 1.1;
+  /*margin-bottom: 20px;*/
+}
