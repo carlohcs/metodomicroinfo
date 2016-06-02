@@ -1,39 +1,60 @@
-#container-product-description{
-  background: url('http://cbmnetworks.com/wp-content/uploads/2014/05/prepare-for-future.jpg') no-repeat;
+  // Variables
+  @orange: #f5863d;
+  @blue  : #1c7dc6;
+  @white: #fff;
+
+
+.container-product-description{
+  background: url('/src/img/human-look.jpg') no-repeat;
   background-size: cover;
-
-  color: #fff;
+  color: @white;
   height: 100vh;
-
 }
 
-
-#container-product-description .center {
-    height: 100%;
-    color: #FFF;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: relative;
-    z-index: 2;
+.overlay {
+  background: url('/src/img/overlay.png') repeat left top;
+  position: absolute;
+  height: 100vh;
+  display: table;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 67px;
 }
-#container-product-description p
-{
+
+.container-product-description-info {
+  padding-top: 40px; 
+
+  p {
     font-size: 16px;
-}
-#container-product-description i
-{
-    color: #428BCA;
+  }
 }
 
-/*Normal state*/
 .header-hero {
-    /*padding-top: 50px;*/
-    padding-bottom: 80px;
-    position: relative;
-    text-align: center;
-}
-.header-hero h1 {
+  padding: 90px 80px 60px 80px;
+  text-align: center;
+
+  h1 {
     font-size: 5.75rem;
     line-height: 1.1;
     /*margin-bottom: 20px;*/
+    font-weight: 700;
+  }
+}
+
+.open-inscriptions {
+  // padding: 20px 0;  
+  // background: @blue;
+  color: @white;
+  text-align: center;
+}
+
+.switch-courses {
+  margin-top: 20px;
+}
+
+.metodoly-center {
+  margin-top: 80px;
 }
