@@ -12,6 +12,9 @@
   font-size: 24px;
   margin-top: 5px;
 }
+.landing-page .contact {
+  margin-top: 0;
+}
 .landing-page .context-region {
   padding-top: 67px;
 }
@@ -49,13 +52,16 @@
   padding: 0;
 }
 
-.container-product-description {
+.landing-page .pb-lg {
+  padding-bottom: 40px;
+}
+.landing-page .container-product-description {
   background: url('/src/img/human-look.jpg') no-repeat;
   background-size: cover;
   color: #fff;
   height: 100vh;
 }
-.overlay {
+.landing-page .overlay {
   background: url('/src/img/overlay.png') repeat left top;
   position: absolute;
   height: 100vh;
@@ -67,29 +73,154 @@
   height: 100%;
   margin-top: 67px;
 }
-.container-product-description-info {
+.landing-page .container-product-description-info {
   padding-top: 40px;
 }
-.container-product-description-info p {
+.landing-page .container-product-description-info p {
   font-size: 16px;
 }
-.header-hero {
+.landing-page .header-hero {
   padding: 90px 80px 60px 80px;
   text-align: center;
 }
-.header-hero h1 {
+.landing-page .header-hero h1 {
   font-size: 5.75rem;
   line-height: 1.1;
   /*margin-bottom: 20px;*/
   font-weight: 700;
 }
-.open-inscriptions {
+.landing-page .open-inscriptions {
   color: #fff;
   text-align: center;
 }
-.switch-courses {
+.landing-page .switch-courses {
   margin-top: 20px;
+  padding-bottom: 80px;
 }
-.metodoly-center {
+.landing-page .metodoly-center {
   margin-top: 80px;
+}
+.landing-page .process {
+  color: #fff;
+  background: #30308a;
+  padding-bottom: 170px;
+}
+.landing-page .process-flow li {
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  max-width: 256px;
+  opacity: 0.2;
+  transition: opacity 0.7s ease-out 0s;
+}
+.landing-page .process-flow li.active {
+  opacity: 1;
+}
+.landing-page .process-flow li h4 {
+  font-size: 18px;
+}
+.landing-page .process-flow li p {
+  margin-bottom: 0;
+  color: #fff;
+  font-size: 14px;
+}
+.landing-page .process-node {
+  background: none repeat scroll 0 0 rgba(254, 142, 34, 0);
+  border-radius: 100%;
+  height: 100px;
+  margin: auto;
+  position: relative;
+  transition: background 0.6s ease-out 0s;
+  width: 100px;
+  text-align: center;
+}
+.landing-page .process-node i {
+  font-size: 30px;
+  color: #ffffff;
+  opacity: 1;
+  position: relative;
+  top: 35px;
+  transition: opacity 0.6s ease-out 0s;
+}
+.landing-page .process-node i:last-child {
+  opacity: 0;
+}
+.landing-page .process-node.active {
+  background: none repeat scroll 0 0 #f5863d;
+}
+.landing-page .process-node.active i:first-child {
+  opacity: 0;
+}
+.landing-page .process-node.active i:last-child {
+  opacity: 1;
+}
+.landing-page .line {
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.1);
+  height: 7em;
+  margin: auto;
+  width: 4px;
+}
+.landing-page .line.active .progress {
+  height: 7em;
+}
+.landing-page .progress {
+  background: none repeat scroll 0 0 #ffffff;
+  height: 0;
+  transition: height 1.2s ease-out 0s;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .landing-page .process-flow {
+    max-width: 750px;
+    padding: 0px;
+    margin: 0px auto;
+  }
+  .landing-page .process-flow li {
+    clear: right;
+    float: left;
+    height: 120px;
+    margin: 0;
+    position: relative;
+    width: 256px;
+  }
+  .landing-page .process-flow li .line {
+    height: 400px;
+    position: absolute;
+    right: -48%;
+    top: -6.7em;
+    -moz-transform: rotate(-75deg);
+    -webkit-transform: rotate(-75deg);
+    -o-transform: rotate(-75deg);
+    -ms-transform: rotate(-75deg);
+    transform: rotate(-75deg);
+  }
+  .landing-page .process-flow li .line.active .progress {
+    height: 400px;
+  }
+  .landing-page .process-flow li:nth-child(2n) {
+    clear: left;
+    float: right;
+  }
+  .landing-page .process-flow li:nth-child(2n) .line {
+    left: -242%;
+    -moz-transform: rotate(75deg);
+    -webkit-transform: rotate(75deg);
+    -o-transform: rotate(75deg);
+    -ms-transform: rotate(75deg);
+    transform: rotate(75deg);
+  }
+}
+.landing-page .start-now {
+  background: #30308a url('/src/img/overlay.png') repeat left top;
+}
+.landing-page .start-now h1,
+.landing-page .start-now h2,
+.landing-page .start-now p {
+  color: #fff;
+}
+.landing-page .start-now span {
+  color: #f5863d;
+}
+.landing-page .start-now p {
+  font-size: 30px;
 }

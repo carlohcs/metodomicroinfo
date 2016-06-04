@@ -2,6 +2,7 @@
   import uglify  from 'gulp-uglify';
   import concat  from 'gulp-concat';
   import sourcemaps from 'gulp-sourcemaps';
+  // import jshint from 'gulp-jshint';
 
   gulp.task('scripts:base', () => {
     return gulp.src([
@@ -20,6 +21,7 @@
       './src/app.js',
       './src/component/**/*.js',
     ], {base: './'})
+    // .pipe(jshint())
     .pipe(sourcemaps.init())
     .pipe(uglify())
     .pipe(concat('application.js'))
