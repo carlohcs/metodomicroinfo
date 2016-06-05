@@ -7,6 +7,7 @@
   gulp.task('scripts:base', () => {
     return gulp.src([
       './node_modules/jquery/dist/jquery.min.js',
+      './node_modules/bootstrap/dist/js/bootstrap.min.js',
       './node_modules/underscore/underscore-min.js',
       './node_modules/backbone/backbone-min.js',
       './node_modules/handlebars/dist/handlebars.min.js'
