@@ -17,9 +17,18 @@
     constructor: function() {
       BaseView.apply(this, arguments);
 
+      // Events
       this
+      // .on('render', this._setupUI.bind(this))
         .on('render', this._setupProcessLine)
+        .on('render', this._setupContactForm.bind(this))
         .render();
+    },
+    _setupUI: function() {
+      // UI
+      this.ui = {
+        contactForm: this.$el.find('#contact-frm')
+      };
     },
     /**
      * Adiciona remove classe para os itens de linha
@@ -37,20 +46,18 @@
           $window = $(window),
           $element,
           inViewPort;
-        
-       $elements.each(function() {
+
+        $elements.each(function() {
           $element = $(this);
 
-          if(!(inViewPort = $element.offset().top < $window.scrollTop() + $window.height() - 300)) {
+          if (!(inViewPort = $element.offset().top < $window.scrollTop() + $window.height() - 300)) {
             method = 'removeClass';
           }
 
-           $element
+          $element
             [method]("active")
-            .closest("li")
-            [method]("active")
-            .find(".line")
-            [method]("active");
+            .closest("li")[method]("active")
+            .find(".line")[method]("active");
         });
       }
 
@@ -58,6 +65,39 @@
       $(window).scroll(function() {
         processLine();
       });
+    },
+    /**
+     * Define configurações do form
+     *
+     * @return {void}
+     */
+    _setupContactForm: function() {
+      var
+        validations = {
+          rules: {
+            'name': {
+              'required': true
+            },
+            'email': {
+              'required': true,
+              'email': true
+            },
+            /*'phone': {
+              'required': false,
+              'min': 8
+            },*/
+            'message': {
+              'required': true
+            }
+          }
+        },
+        options = {
+          defaultMessages: {
+            required: 'Este campo é requerido.',
+            email: 'Preencha este campo no formato "usuario@servidor.com"'
+          }
+        },
+        validation = new FormValidator('#contact-frm', validations, options);
     },
     render: function() {
       this.$el.html(this.template(this.options.data));
@@ -68,5 +108,5 @@
 
   new app.homeView();
 
-})(window.app);
+})(window.app, window.FormValidator);
 

@@ -223,7 +223,7 @@
                     <strong><i class="fa fa-check"></i> Contato enviado com sucesso!</strong> <span class="alert-link">O InterAcesso agradece.</span>
                 </div>
 
-                <form id="frm-contato" role="form" method="POST" action="{{ APP_SISTEMA }}">
+                <form id="contact-frm" role="form" method="POST" action="{{ APP_SISTEMA }}">
 
                     <div class="form-group">
 
@@ -237,12 +237,12 @@
                             <div class="col-md-6">
                                 <label class="control-label lead"><i class="fa fa-user"></i> Nome</label>
                                 <div class="form-group">
-                                    <input type="text" placeholder="Nome" name="nome_contato" id="nome_contato" class="form-control busca" value="" maxlength="30" />
+                                    <input type="text" placeholder="Nome" name="name" class="form-control busca" value="" maxlength="30" />
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <label class="lead" for="inputEmail"><i class="fa fa-envelope"></i> E-mail</label>
-                                <input type="text" name="email_contato" placeholder="E-mail" id="email_contato" class="form-control email_desc span5" data-rule-email="true" />
+                                <input type="text" name="email" placeholder="E-mail" class="form-control email_desc span5" data-rule-email="true" />
                             </div>
                         </div>
                     </div>
@@ -251,14 +251,14 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <label class="lead"><i class="fa fa-phone"></i> Telefone</label>
-                                <input type="text" maxlength="9" class="form-control telefone" name="telefone_contato" id="telefone_contato" data-rule-number="true" placeholder="Telefone">
+                                <input type="text" maxlength="9" class="form-control telefone" name="phone" data-rule-number="true" placeholder="Telefone">
                             </div>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="lead" for="inputEmail"><i class="fa fa-inbox"></i> Mensagem</label>
-                        <textarea class="form-control" rows="3" name="mensagem_contato" id="mensagem_contato" placeholder="Se possível, informe quem o indicou, e suas necessidades/sugestões."></textarea>
+                        <textarea class="form-control" rows="3" name="message" placeholder="Se possível, informe quem o indicou, e suas necessidades/sugestões."></textarea>
                     </div>
 
                     <p class="text-center">

@@ -10,7 +10,8 @@
       './node_modules/bootstrap/dist/js/bootstrap.min.js',
       './node_modules/underscore/underscore-min.js',
       './node_modules/backbone/backbone-min.js',
-      './node_modules/handlebars/dist/handlebars.min.js'
+      './node_modules/handlebars/dist/handlebars.min.js',
+      './vendors/form-validator-project/assets/formValidator.js'
     ], {base: './'})
     .pipe(uglify())
     .pipe(concat('base.js'))
