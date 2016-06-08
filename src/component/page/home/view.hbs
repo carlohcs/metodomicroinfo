@@ -237,12 +237,14 @@
                             <div class="col-md-6">
                                 <label class="control-label lead"><i class="fa fa-user"></i> Nome</label>
                                 <div class="form-group">
-                                    <input type="text" placeholder="Nome" name="name" class="form-control busca" value="" maxlength="30" />
+                                    <input type="text" placeholder="Nome" name="name" class="form-control" />
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <label class="lead" for="inputEmail"><i class="fa fa-envelope"></i> E-mail</label>
-                                <input type="text" name="email" placeholder="E-mail" class="form-control email_desc span5" data-rule-email="true" />
+                                <div class="form-group">
+                                    <input type="text" name="email" placeholder="E-mail" class="form-control" />
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -251,20 +253,23 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <label class="lead"><i class="fa fa-phone"></i> Telefone</label>
-                                <input type="text" maxlength="9" class="form-control telefone" name="phone" data-rule-number="true" placeholder="Telefone">
+                                <div class="form-group">
+                                    <input type="text" maxlength="9" class="form-control" name="phone" placeholder="Telefone" />
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="form-group">
                         <label class="lead" for="inputEmail"><i class="fa fa-inbox"></i> Mensagem</label>
-                        <textarea class="form-control" rows="3" name="message" placeholder="Se possível, informe quem o indicou, e suas necessidades/sugestões."></textarea>
+                        <div class="form-group">
+                            <textarea class="form-control" rows="3" name="message" placeholder="Se possível, informe quem o indicou, e suas necessidades/sugestões."></textarea>
+                        </div>
                     </div>
 
                     <p class="text-center">
-                        <input type="submit" class="btn btn-primary prevent_default" id="btn-envia-contato" value="Enviar" />
+                        <input type="submit" class="btn btn-primary" id="contact-send" value="Enviar" />
                     </p>
-
                 </form>
 
             </div>

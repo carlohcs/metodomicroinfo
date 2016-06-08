@@ -1,4 +1,5 @@
-(function(app) {
+(function(app, $) {
+  'use strict';
 
   var
     BaseView = Backbone.View;
@@ -73,31 +74,52 @@
      */
     _setupContactForm: function() {
       var
+        form = document.getElementById('contact-frm'),
         validations = {
           rules: {
-            'name': {
-              'required': true
+            name: {
+              required: true
             },
-            'email': {
-              'required': true,
-              'email': true
+            email: {
+              required: true,
+              email: true
             },
-            /*'phone': {
-              'required': false,
-              'min': 8
-            },*/
-            'message': {
-              'required': true
+            phone: {
+              required: false,
+              number: true
+            },
+            message: {
+              required: true
             }
           }
         },
         options = {
           defaultMessages: {
             required: 'Este campo é requerido.',
-            email: 'Preencha este campo no formato "usuario@servidor.com"'
+            email: 'Informe e-mail no formato "usuario@servidor.com".',
+            number: 'Informe apenas números.'
           }
         },
-        validation = new FormValidator('#contact-frm', validations, options);
+        validation = new FormValidator(form, validations, options);
+
+      // form.addEventListener('submit', function(e){
+      form.submit = function(){
+        // e.preventDefault();
+
+        if(validation.valid()) {
+          var
+            data = {
+              url: 'http://dev.metodomicroinfo.com.br/index.html'
+            },
+            ContactService = app.ContactService();
+
+          ContactService.doRequest(data)
+            .then(function(response){
+              console.log('response -> ', response);
+              debugger;
+            });
+        }
+      };
     },
     render: function() {
       this.$el.html(this.template(this.options.data));
@@ -108,5 +130,5 @@
 
   new app.homeView();
 
-})(window.app, window.FormValidator);
+})(window.app, jQuery, window.FormValidator);
 
