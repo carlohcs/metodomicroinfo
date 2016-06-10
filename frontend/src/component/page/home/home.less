@@ -1,0 +1,209 @@
+.landing-page {
+
+	.pb-lg {
+		padding-bottom: 40px;
+	}
+
+  // Variables
+  @orange: #f5863d;
+  @blue :#1c7dc6;
+  @blue-dark: #30308a;
+  @white: #fff;
+  .container-product-description {
+      background: url('/src/img/human-look.jpg') no-repeat;
+      background-size: cover;
+      color: @white;
+      height: 100vh;
+  }
+
+  .overlay {
+      background: url('/src/img/overlay.png') repeat left top;
+      position: absolute;
+      height: 100vh;
+      display: table;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      margin-top: 67px;
+  }
+
+  .container-product-description-info {
+      padding-top: 40px;
+      p {
+          font-size: 16px;
+      }
+  }
+
+  .header-hero {
+      padding: 90px 80px 60px 80px;
+      text-align: center;
+      h1 {
+          font-size: 5.75rem;
+          line-height: 1.1;
+          /*margin-bottom: 20px;*/
+          font-weight: 700;
+      }
+  }
+
+  .open-inscriptions {
+      // padding: 20px 0;
+      // background: @blue;
+      color: @white;
+      text-align: center;
+  }
+
+  .switch-courses {
+      margin-top: 20px;
+		padding-bottom: 80px;
+  }
+
+  .metodoly-center {
+      margin-top: 80px;
+  }
+
+
+  // Process
+  .process {
+    color: @white;
+    background: @blue-dark;
+    padding-bottom: 170px;
+  }
+
+  .process-flow {
+      li {
+        text-align: center;
+        color: @white;
+        margin: 0 auto;
+        max-width: 256px;
+        opacity: 0.2;
+        transition: opacity 0.7s ease-out 0s;
+        &.active {
+            opacity: 1;
+        }
+        h4 {
+          font-size: 18px;
+        }
+        p {
+          margin-bottom: 0;
+          color: @white;
+          font-size: 14px;
+        }
+      }
+  }
+
+  .process-node {
+      background: none repeat scroll 0 0 rgba(254, 142, 34, 0);
+      border-radius: 100%;
+      height: 100px;
+      margin: auto;
+      position: relative;
+      transition: background 0.6s ease-out 0s;
+      width: 100px;
+      text-align: center;
+      i {
+          font-size: 30px;
+          color: @white;
+          opacity: 1;
+          position: relative;
+          top: 35px;
+          transition: opacity 0.6s ease-out 0s;
+          &:last-child {
+              opacity: .3;
+          }
+      }
+      &.active {
+          background: none repeat scroll 0 0 @orange;
+          i {
+              &:first-child {
+                  opacity: 0;
+              }
+              &:last-child {
+                  opacity: 1;
+              }
+          }
+      }
+  }
+
+  .line {
+      background: none repeat scroll 0 0 rgba(255, 255, 255, 0.2);
+      height: 7em;
+      margin: auto;
+      width: 4px;
+      &.active {
+          .progress {
+              height: 7em;
+          }
+      }
+  }
+
+  .progress {
+      background: none repeat scroll 0 0 @white;
+      height: 0;
+      transition: height 1.2s ease-out 0s;
+      width: 100%;
+  }
+
+  // Process - Media
+  @media (min-width: 768px) {
+    .process-flow {
+        max-width: 750px;
+        padding: 0px;
+        margin: 0px auto;
+
+        li {
+            clear: right;
+            float: left;
+            height: 120px;
+            margin: 0;
+            position: relative;
+            width: 256px;
+
+            .line {
+                height: 400px;
+                position: absolute;
+                right: -48%;
+                top: -6.7em;
+                -moz-transform: rotate(-75deg);
+                -webkit-transform: rotate(-75deg);
+                -o-transform: rotate(-75deg);
+                -ms-transform: rotate(-75deg);
+                transform: rotate(-75deg);
+
+                &.active .progress {
+                    height: 400px;
+                }
+            }
+
+            &:nth-child(2n) {
+                clear: left;
+                float: right;
+            }
+            &:nth-child(2n) .line {
+                left: -242%;
+                -moz-transform: rotate(75deg);
+                -webkit-transform: rotate(75deg);
+                -o-transform: rotate(75deg);
+                -ms-transform: rotate(75deg);
+                transform: rotate(75deg);
+            }
+        }
+    }
+}
+
+  .start-now {
+    background: @blue-dark url('/src/img/overlay.png') repeat left top;
+    h1,
+    h2,
+    p {
+      color: @white;
+    }
+    span {
+      color: @orange;
+    }
+    p {
+      font-size: 30px;
+    }
+  }
+}
