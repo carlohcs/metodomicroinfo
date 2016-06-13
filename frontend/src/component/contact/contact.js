@@ -17,28 +17,34 @@
         .fail($defer.reject);
 
       return $defer.promise();
-      // return $defer.reject();
     }
 
-    function testDoRequest() {
+    /**
+     * Send the contact to server
+     *
+     * @param  {Object} data
+     * @return {jQuery.Deferred}
+     */
+    function send(data) {
       var
-        data,
+        $defer = $.Deferred(),
         promise;
 
-      data = {
+      data = $.extend(data, {
         url: 'http://dev.metodomicroinfo.com.br/index.html'
-      };
+      });
 
       promise = doRequest(data);
       promise
-        .then(function(message) {
-          console.log('message -> ', message);
-        });
+        .then($defer.resolve)
+        .fail($defer.reject);
+
+      return $defer.promise;
     }
 
     return {
       doRequest: doRequest,
-      testDoRequest: testDoRequest
+      send: send
     };
   });
 

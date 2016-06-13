@@ -127,10 +127,6 @@
         $message = $('#contact-message'),
         ContactService = app.ContactService();
 
-      data = $.extend(data, {
-        url: 'http://dev.metodomicroinfo.com.br/index.html'
-      });
-
       function disableForm() {
         // Enviando
         $contactSendButton
