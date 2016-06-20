@@ -1,24 +1,52 @@
 (function(app, $) {
-    'use strict';
+  'use strict';
 
+  var
+    BaseRouter = Backbone.Router;
+
+  function getCourse(name) {
     var
-      BaseRouter = Backbone.Router;
+      defer = $.Deferred(),
+      then = function(data) {
+        data = JSON.parse(data);
 
-    app.HomeRouter = BaseRouter.extend({
-      routes: {
-        'curso/:name': 'getCourse'
-      },
+        return $defer.resolve(data[name]);
+      };
 
-      /**
-       * Return the course by name
-       *
-       * @param  {String} name
-       * @return {void}
-       */
-      getCourse: function(name) {
-        console.log('Curso -> ', name);
-      }
-    });
+    $.ajax({
+        url: '/component/page/courses/courses.json'
+      })
+      .then(then)
+      .fail(defer.fail);
+
+    return defer.promise();
+  }
+
+  app.HomeRouter = BaseRouter.extend({
+    routes: {
+      'curso/:name': 'getCourse'
+    },
+
+    /**
+     * Return the course by name
+     *
+     * @param  {String} name
+     * @return {void}
+     */
+    getCourse: function(name) {
+      var
+        $promise;
+
+      console.log('Curso -> ', name);
+
+      $promise = getCourse(name);
+      promise
+        .then(function() {
+
+          console.log("arguments: ", arguments);
+        });
+    }
+  });
 
   var appRouter = new app.HomeRouter();
   app.start();
