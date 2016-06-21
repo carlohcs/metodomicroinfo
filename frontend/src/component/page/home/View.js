@@ -22,6 +22,7 @@
       this
       // .on('render', this._setupUI.bind(this))
         .on('render', this._setupProcessLine)
+        .on('render', this._setupModal)
         .on('render', this._setupContactForm.bind(this))
         .render();
     },
@@ -65,6 +66,28 @@
       // Bind
       $(window).scroll(function() {
         processLine();
+      });
+    },
+    _setupModal: function() {
+      var
+        $toggleModal = $('a[data-toggle="modal"]');
+
+      $toggleModal.on('click', function(e) {
+        var
+          $el = $(this),
+          // href = $(e).attr('href');
+          target = $el.data('target'),
+          href = 'operador-de-computador-master',
+					$promise;
+
+        e.preventDefault();
+
+        $promise = app.service.getCourse(href);
+        $promise
+          .then(function(data) {
+            $(target).find('.modal-body').append(data.modules[0].description);
+            $(target).modal('show');
+          })
       });
     },
     /**
@@ -191,3 +214,4 @@
   new app.homeView();
 
 })(window.app, jQuery, window.FormValidator);
+

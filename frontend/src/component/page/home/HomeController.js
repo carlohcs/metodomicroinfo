@@ -3,25 +3,7 @@
 
   var
     BaseRouter = Backbone.Router;
-
-  function getCourse(name) {
-    var
-      defer = $.Deferred(),
-      then = function(data) {
-        data = JSON.parse(data);
-
-        return $defer.resolve(data[name]);
-      };
-
-    $.ajax({
-        url: '/component/page/courses/courses.json'
-      })
-      .then(then)
-      .fail(defer.fail);
-
-    return defer.promise();
-  }
-
+		
   app.HomeRouter = BaseRouter.extend({
     routes: {
       'curso/:name': 'getCourse'
@@ -39,11 +21,11 @@
 
       console.log('Curso -> ', name);
 
-      $promise = getCourse(name);
-      promise
-        .then(function() {
+      $promise = app.service.getCourse(name);
+      $promise
+        .then(function(data) {
 
-          console.log("arguments: ", arguments);
+          console.log("data: ", data);
         });
     }
   });
@@ -51,4 +33,6 @@
   var appRouter = new app.HomeRouter();
   app.start();
 
+// Just for test
+// Backbone.history.navigate('curso/operador-de-computador-master', {trigger: true});
 })(window.app, jQuery);
