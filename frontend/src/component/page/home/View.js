@@ -75,19 +75,27 @@
       $toggleModal.on('click', function(e) {
         var
           $el = $(this),
-          // href = $(e).attr('href');
           target = $el.data('target'),
           href = 'operador-de-computador-master',
-					$promise;
+          $promise;
 
         e.preventDefault();
 
         $promise = app.service.getCourse(href);
         $promise
           .then(function(data) {
-            $(target).find('.modal-body').append(data.modules[0].description);
-            $(target).modal('show');
-          })
+            var
+              $target = $(target),
+              View = app.shared.modal.View,
+              view = new View({
+                data: data
+              });
+
+            $target.find('.modal-content')
+              .append(view.$el.html())
+              .end()
+              .modal('show');
+          });
       });
     },
     /**
@@ -214,4 +222,3 @@
   new app.homeView();
 
 })(window.app, jQuery, window.FormValidator);
-

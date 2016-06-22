@@ -16,3 +16,9 @@ Route::get('/', function () {
 });
 
 Route::post('/contact', 'ContactController@sendContact');
+Route::get('/data/courses', function() {
+
+    $courses = Storage::disk('local')->get('public/courses.json');
+
+    return Response::json($courses);
+});
