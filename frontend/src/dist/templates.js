@@ -54,7 +54,7 @@ this["Handlebars"]["templates"]["component"]["shared"]["modal"]["view"] = Handle
 },"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
     var stack1, helper;
 
-  return "<div class=\"modal-header\">\n    <button type=\"button\" class=\"close\" data-dismiss=\"modal\"><span aria-hidden=\"true\">&times;</span><span class=\"sr-only\">Close</span></button>\n    <i class=\"fa fa-laptop modal-icon\"></i>\n    <h3 class=\"modal-title\">"
+  return "<div class=\"modal-header\" style=\"background: #30308a;\n    color: #fff;\n    border: 0;\">\n    <button type=\"button\" class=\"close\" data-dismiss=\"modal\"><span aria-hidden=\"true\">&times;</span><span class=\"sr-only\">Close</span></button>\n    <i class=\"fa fa-laptop modal-icon\"></i>\n    <h3 class=\"modal-title\">"
     + this.escapeExpression(((helper = (helper = helpers.name || (depth0 != null ? depth0.name : depth0)) != null ? helper : helpers.helperMissing),(typeof helper === "function" ? helper.call(depth0,{"name":"name","hash":{},"data":data}) : helper)))
     + "</h3>\n</div>\n\n"
     + ((stack1 = helpers.each.call(depth0,(depth0 != null ? depth0.modules : depth0),{"name":"each","hash":{},"fn":this.program(1, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")

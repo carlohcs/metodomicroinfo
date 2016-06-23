@@ -13,7 +13,7 @@
     initialize: function(options) {
       this.options = options;
     },
-    
+
     /**
      * Construtor
      *
@@ -26,7 +26,7 @@
       this
         .render();
     },
-    
+
     render: function() {
       this.$el.html(this.template(this.options.data));
       this.trigger('render');
