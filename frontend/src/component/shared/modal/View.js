@@ -9,6 +9,8 @@
   }
 
   namespace.modal.View = BaseView.extend({
+    // TODO: Deixar modal padrão nesta view - Mover .hbs de cursos para outro
+    // namespace
     template: app.TPL.component.shared.modal.view,
     initialize: function(options) {
       this.options = options;

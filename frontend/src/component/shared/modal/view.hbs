@@ -7,15 +7,15 @@
 </div>
 
     {{#each modules}}
-    <div style="background: #f5863d; padding: 20px 30px 0 30px;color: #fff;">
+    <div class="course-descriptions" data-toggle="collapse" href="#{{slug name}}" style="background: #f5863d; padding: 20px 30px 0 30px;color: #fff;">
         <h3>{{name}}</h3>
         <h4>{{description}}</h4>
         <br />
     </div>
-    <div class="modal-body">
+    <div class="modal-body course-content collapse" id="{{slug name}}">
         <p>Conteúdo programático:</p>
         {{#each classes}}
-            <p><strong>{{title}}</strong></p>    
+            <p><strong>{{title}}</strong></p>
             <ul>
                 {{#each items}}
                     <li>{{this}}</li>
@@ -25,6 +25,7 @@
         {{/each}}
     {{!<small class="font-bold"></small>}}
     </div>
+    <hr />
     {{/each}}
 
 <div class="modal-footer">
