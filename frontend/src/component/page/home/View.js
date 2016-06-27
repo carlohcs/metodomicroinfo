@@ -75,8 +75,8 @@
       $toggleModal.on('click', function(e) {
         var
           $el = $(this),
-          target = $el.data('target'),
-          href = 'operador-de-computador-master',
+          target = $el.attr('href'),
+          href = target.replace('#', ''),
           $promise;
 
         e.preventDefault();
@@ -85,12 +85,12 @@
         $promise
           .then(function(data) {
             var
-              $target = $(target),
+              $target = $($el.data('target')),
               View = app.shared.modal.View,
               view = new View({
                 data: data
               });
-
+            
             $target.find('.modal-content')
               .append(view.$el.html())
               .end()
