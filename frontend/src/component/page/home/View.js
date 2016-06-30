@@ -90,9 +90,9 @@
               view = new View({
                 data: data
               });
-            
+
             $target.find('.modal-content')
-              .append(view.$el.html())
+              .html(view.$el.html())
               .end()
               .modal('show');
           });
@@ -119,7 +119,7 @@
               required: false,
               number: true
             },
-            message: {
+            comment: {
               required: true
             }
           }
@@ -154,7 +154,7 @@
       var
         $contactSendButton = $('#contact-send'),
         $form = $('#contact-frm'),
-        fields = '[name="name"], [name="email"], [name="phone"], [name="message"]',
+        fields = '[name="name"], [name="email"], [name="phone"], [name="comment"]',
         $message = $('#contact-message'),
         ContactService = app.ContactService();
 
@@ -171,7 +171,9 @@
 
       function enableForm() {
         $contactSendButton
-          .button('reset');
+          .removeClass('disabled')
+          .removeAttr('disabled')
+          .val('Enviar');
 
         $form
           .find(fields)
@@ -188,7 +190,7 @@
 
       disableForm();
 
-      ContactService.doRequest(data)
+      ContactService.send(data)
         .then(function(response) {
           console.log('response -> ', response);
           $message

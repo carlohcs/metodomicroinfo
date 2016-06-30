@@ -10,9 +10,17 @@
      */
     function doRequest(data) {
       var
-        $defer = $.Deferred();
+        $defer = $.Deferred(),
+        dataSend;
 
-      $.ajax(data)
+      dataSend = {
+        data: data,
+        url: 'http://api.metodomicroinfo.com.br/contact',
+        method: 'POST',
+        dataType: 'json'
+      };
+
+      $.ajax(dataSend)
         .then($defer.resolve)
         .fail($defer.reject);
 
@@ -28,18 +36,14 @@
     function send(data) {
       var
         $defer = $.Deferred(),
-        promise;
+        $promise;
 
-      data = $.extend(data, {
-        url: 'http://dev.metodomicroinfo.com.br/index.html'
-      });
-
-      promise = doRequest(data);
-      promise
+      $promise = $.when(doRequest(data));
+      $promise
         .then($defer.resolve)
         .fail($defer.reject);
 
-      return $defer.promise;
+      return $defer.promise();
     }
 
     return {
