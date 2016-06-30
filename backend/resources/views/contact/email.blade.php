@@ -3,7 +3,7 @@
 <p><strong>Nome: </strong>{{$name}}</p>
 <p><strong>E-mail: </strong>{{$email}}</p>
 <p><strong>Telefone: </strong>{{isset($phone) ? $phone : '--'}}</p>
-<p><strong>Mensagem: </strong><br />{{$msg}}</p>
+<p><strong>Mensagem: </strong><br />{{$comment}}</p>
 
 
 <p><strong>Data: </strong>{{$date}}</p>

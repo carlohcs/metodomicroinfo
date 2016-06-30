@@ -1,0 +1,1545 @@
+{
+  "operador-de-computador-master": {
+    "name": "Operador de Computador Master",
+    "modules": [{
+      "name": "Introdução à Informática para Windows 8 - 06 horas",
+      "description": "O objetivo desde curso é fornecer as informações iniciais e necessárias para o bom uso do microcomputador. É um curso destinado aos alunos que nunca tiveram contato com um computador. Será ensinado desde como utilizar o mouse, ligar e desligar o computador corretamente, dentre outros assuntos.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Aprendendo a usar o mouse", "Introdução à informática", "Área de trabalho e menu Iniciar", "Desligando o computador"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Tipos de computadores e periféricos", "Hardware e software", "Maximizar, minimizar e restaurar", "Unidades de armazenamento"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Arquivos, Pastas e Subpastas", "Criando Pastas e Subpastas", "Tipos de arquivos", "Digitando no WordPad"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Acentuação", "Salvando texto no WordPad", "Excluindo e Restaurando arquivos"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Revisão"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Teste"]
+      }]
+    }, {
+      "name": "Windows 8 - 18 horas",
+      "description": "Neste curso, o aluno aprenderá sobre o computador, como acessar programas, trabalhar com arquivos de textos, manusear pen drive e CD, realizar configurações, utilizar o Windows Media Player, conhecer os novos recursos do Windows 8, entre outros.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Introdução ao Windows 8", "Interface METRO", "Blocos dinâmicos– Parte I", "Blocos dinâmicos– Parte II", "Charm Bar"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Barra de tarefas", "Propriedades da barra de tarefas", "Peek", "Shake", "Snap"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Calculadora", "Explorador de arquivos", "Favoritos", "Pesquisar– Parte I"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Pesquisar– Parte II", "Modos de exibição de arquivos e pastas", "Renomear arquivos e pastas", "Processamento de dados– Conceitos básicos", "Abrindo arquivos"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Área de transferência", "Recortar, copiar e colar", "Mover e copiar arquivo e pasta", "Mover e copiar vários arquivos e pastas"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Teclas ALT e ALT GR", "Formatando texto no WordPad", "Inserir imagem em texto do WordPad", "Imprimindo documento do WordPad"]
+      }, {
+        "title": "Aula 07",
+        "items": ["1 ª Revisão"]
+      }, {
+        "title": "Aula 08",
+        "items": ["1 º Teste"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Alternando entre janelas", "Criando atalhos", "Unidades de medida", "Propriedades de arquivos e pastas"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Propriedades dos discos", "Mover ou copiar arquivos para unidade removível", "MP3 e WMA"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Windows Media Player", "Gravando um CD de Áudio pelo WMP", "Copiando músicas do CD para o computador"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Tela de Fundo da Área de trabalho", "Cor da janela", "Proteção de tela", "Temas padrões"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Temas personalizados", "Tela de Bloqueio", "Personalizar Tela Inicial", "Alterar Imagem da Conta"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Resolução da tela", "Configuração dos ícones da Área de trabalho", "Área de notificação", "Configurações do mouse"]
+      }, {
+        "title": "Aula 15",
+        "items": ["Data e Hora", "Propriedades do computador", "Limpeza de disco"]
+      }, {
+        "title": "Aula 16",
+        "items": ["2 ª Revisão - Parte I"]
+      }, {
+        "title": "Aula 17",
+        "items": ["2 ª Revisão - Parte II"]
+      }, {
+        "title": "Aula 18",
+        "items": ["2 º Teste"]
+      }]
+    }, {
+      "name": "Word 2013 - Básico - 16 horas",
+      "description": "O aluno aprenderá a utilizar os recursos básicos do Word para a criação de textos, tais como cartas comerciais, cartas pessoais, trabalhos escolares, tabela de preços, etc.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Microsoft Word 2013 – Introdução", "Conhecendo os elementos da tela do Word 2013", "Digitando e salvando textos", "Abrindo e alterando arquivos"]
+      }, {
+        "title": " Aula 02",
+        "items": ["Criando novos documentos", "Recortando, Copiando e Colando trechos do texto", "Recortar, Copiar e Colar com teclas de atalho", "Mini Barra de Ferramentas"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Desfazendo e Refazendo alterações", "Ortografia e Gramática – Parte I", "Ortografia e Gramática – Parte II", "Fonte – Parte I"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Fonte – Parte II", "Sobrescrito e Subscrito", "Maiúsculas e Minúsculas", "Visualizando documentos", "Margens"]
+      }, {
+        "title": " Aula 05",
+        "items": ["Orientação da Página", "Tamanho do Papel", "Salvar e Salvar como", "Exportando um documento como“ PDF” 22 - Formatando parágrafos– Parte I \"Formatando parágrafos – Parte II\""]
+      }, {
+        "title": " Aula 06",
+        "items": ["Formatando parágrafos – Parte III", "Marcadores e Numeração", "Bordas e Sombreamentos"]
+      }, {
+        "title": " Aula 07",
+        "items": ["Borda da página", "Exercício – Certificado", "Inserindo Símbolos"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Inserindo Formas no documento", "Preenchimento das formas", "Aplicando Efeitos nas formas", "Formatar contorno e Substituir formas"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Inserindo imagens (Clip-Art)", "Inserindo Imagens", "WordArt – Parte I", "WordArt – Parte II", "WordArt – Parte III"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Exercício – Cartaz", "Exercício – Placa", "Formas com texto"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Inserindo Tabelas", "Excluindo Linhas e Colunas", "Inserindo Linhas e Colunas", "Mesclando e Dividindo Células"]
+      }, {
+        "title": " Aula 12",
+        "items": ["Bordas e Sombreamento da Tabela", "Cabeçalho e Rodapé", "Numeração de Páginas", "Aplicando Estilos na imagem"]
+      }, {
+        "title": " Aula 13",
+        "items": ["Criando um trabalho para impressão", "Imprimindo documentos"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Revisão Escrita", "Revisão Prática – Parte I"]
+      }, {
+        "title": "Aula 15",
+        "items": ["Revisão Prática – Parte II"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Teste"]
+      }]
+    }, {
+      "name": "Word 2013 - Avançado - 12 horas",
+      "description": "Na versão avançada, o curso de Word 2013 aborda recursos mais aprofundados de um dos softwares mais usados no mercado de trabalho, tais como o uso de equações, teclas de atalho, quebras de texto, tabulações, proteção dos arquivos com senhas, etc.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Word 2013 – Avançado", "Criando documentos a partir de modelos", "Inserindo equações no texto", "Personalizando equações"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Teclas de atalho e Dicas de teclas", "Letra capitular", "Quebra de texto automática", "Cortar imagem"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Tratamento de imagem – Parte I", "Tratamento de imagem – Parte II", "Efeito – Marca D’água", "Configurando as margens para impressão"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Impressão frente e verso", "Tabulação do texto através da régua", "Formatando tabulações", "Listas em ordem alfabética"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Converter tabela em texto / Texto em tabela", "Desenhar tabela", "Texto em colunas", "Quebras de seção"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Cabeçalho e Rodapé por seção", "Numeração de páginas por seção", "Estilos", "Estilos personalizados", "Sinônimos"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Tradução – Parte I", "Tradução – Parte II", "Sumário", "SmartArt"]
+      }, {
+        "title": "Aula 08",
+        "items": ["SmartArt – Alterando design", "SmartArt – Formatação", "Exercício – SmartArt"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Converter imagem em SmartArt", "Mala direta – Conceito", "Criando Mala direta"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Etiquetas", "Etiquetas – Mala direta", "Proteção de documentos por senha", "Salvando textos em outras versões do Word"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Revisão"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Teste"]
+      }]
+    }, {
+      "name": "Internet Explorer 9 - 16 horas",
+      "description": "Durante este curso, o aluno irá aprender a utilizar vários recursos do navegador Internet Explorer 9. Além disso, irá conhecer os conceitos básicos para navegar na Internet, enviar e receber mensagens eletrônicas(Emails), utilizar sites de busca e realizar pesquisas escolares, copiar arquivos da Internet(Downloads) e muito mais.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Internet - Introdução", "Conectando-se à Internet", "Navegadores", "Interface do Internet Explorer 9"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Conhecendo os endereços da Web", "Acessando sites", "Navegando na Internet - Links", "Navegando na Internet - Voltar e Avançar", "Navegando na Internet - Guias"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Histórico de Navegação", "Modo de exibição de compatibilidade", "Navegando na Internet - Praticando"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Barra de Notificação", "Pop-up", "Noções básicas de segurança", "Zoom"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Downloads", "Imprimindo páginas da Web", "Alterando a Página Inicial", "Imagens da Web como Plano de Fundo"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Favoritos - Introdução", "Organizando os Favoritos", "Fixar sites na Barra de Tarefas", "Feeds - Introdução", "Adicionando e Gerenciando os Feeds"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Buscadores - Introdução", "Dicas de Pesquisa", "Encontrando imagens", "Traduzindo resultados"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Pesquisando na Barra de Endereços", "Traduzindo textos", "Traduzindo páginas da Web", "Realizando uma pesquisa traduzida"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Compactando um único arquivo", "Descompactando arquivos", "Compactando um grupo de arquivos", "Descompactando um grupo de arquivo"]
+      }, {
+        "title": "Aula 11",
+        "items": ["E-mail - Introdução", "Entendendo um endereço de e-mail", "Criando uma conta de e-mail - Parte I", "Criando uma conta de e-mail - Parte II"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Acessando uma conta de e-mail", "Enviando e-mail", "Encaminhando e Respondendo e-mail", "Enviando e-mail com anexo"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Mensageiros Instantâneos", "VoIP", "Sites de Relacionamento", "Complementos do Internet Explorer"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Assistindo vídeos online", "Navegação InPrivate", "Navegando na Internet - Praticando"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Teste"]
+      }]
+    }, {
+      "name": "Windows Live Mail - 10 horas",
+      "description": "O Windows Live Mail é um prático e útil gerenciador de e - mails recebidos e enviados.O aluno aprende desde o cadastro de contas, a criação de lista de destinatários, o envio de e - mails com anexos, a utilização de pastas, o bloqueio de lixo eletrônico até o agendamento de eventos.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["O que é um e-mail", "Contas de e-mail", "Utilizando o navegador"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Criando uma conta de usuário do Windows", "Cadastrando contas de e-mail", "Conhecendo o Windows Live Mail"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Criando uma mensagem de e-mail", "Enviando e recebendo e-mail", "Marcando como 'lido' ou 'não lido'"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Cadastrando contatos", "Destinatário da lista de contatos", "Formatando e Salvando como rascunho"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Inserindo Fotos na mensagem", "E-mails com anexo", "Responder e Encaminhar"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Alterando o Layout do Windows Live Mail", "Configurando opções", "Itens excluídos", "Lixo Eletrônico"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Calendário do Windows", "Novo Evento", "Evento a partir de uma mensagem"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Visualizando os eventos agendados", "Imprimindo os eventos agendados", "Excluindo os eventos agendados"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Revisão"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Prova"]
+      }]
+    }, {
+      "name": "Excel 2013 - Básico - 16 horas",
+      "description": "O Excel 2013 é um software incrivelmente poderoso que cria planilhas eletrônicas, isso permite que você adicione seus dados, classifique - os e filtre - os, inserindo em tabelas e criando gráficos incríveis.Neste curso o aluno irá criar planilhas eletrônicas desenvolvendo tabela de preços, controle de gastos domésticos, realizando formatações nas planilhas e etc...",
+      "classes": [{
+        "title": " Aula 01",
+        "items": ["Introdução ao Microsoft Excel 2013", "Conhecendo o Microsoft Excel 2013", "Conhecendo uma planilha", "Inserindo dados em uma planilha"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Alterando o tamanho das colunas e das linhas", "Selecionando e limpando o conteúdo das células", "Inserindo linhas, colunas e células", "Excluindo linhas, colunas e células"]
+      }, {
+        "title": "Aula 03",
+        "items": ["AutoPreencher", "Trabalhando com listas personalizadas", "Preenchimento Relâmpago", "Utilizando fórmulas no Microsoft Excel 2013", "Entendendo a ordem dos operadores"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Criando fórmulas utilizando a referência da célula", "Montando uma planilha - Parte I", "Copiando fórmulas "]
+      }, {
+        "title": "Aula 05",
+        "items": ["Utilizando a função SOMA()", "Botão Soma", "Funções MÍNIMO() e MÁXIMO()", "Função MÉDIA()"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Cálculo de Porcentagem - Parte I", "Cálculo de Porcentagem - Parte II", "Cálculo de Porcentagem - Parte III", "Montando uma planilha - Parte II"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Formatar Células - Fonte", "Formatar Células - Alinhamento", "Formatar Células - Número", "Formatar Células - Borda e Preenchimento", "Formatar Células - Estilo"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Planilhas de Exercício - Parte I", "Planilhas de Exercício - Parte II", "Planilhas de Exercício - Parte III"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Formatar Células - Barra de Ferramentas", "Cópias Absolutas", "Inserindo as medidas das colunas e das linhas", "Classificar Dados", "Comentários nas células"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Gráficos I", "Gráficos II", "Gráficos III", "Gráficos IV", "Gráficos V"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Análise Rápida", "Protegendo uma planilha ou parte dela", "Cálculo de horas", "Planilhas em PDF"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Visualizando a Impressão - Página e Margens", "Visualizando a Impressão - Cabeçalho e Rodapé", "Definindo a área de impressão", "Imprimindo um documento no Microsoft Excel 2010"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Planilhas de Exercício - Parte IV", "Planilhas de Exercício - Parte V", "Planilhas de Exercício - Parte VI"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Revisão - Parte I"]
+      }, {
+        "title": "Aula 15",
+        "items": ["Revisão - Parte II"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Teste de Excel 2013"]
+      }]
+    }, {
+      "name": "Excel 2013 - Avançado - 14 horas",
+      "description": "Nesta versão avançada do curso de Excel, o aluno irá compartilhar informações entre planilhas e pastas de trabalho, criar planilhas de comissão de vendas e planilhas de projeção de vendas, além da utilização de fórmulas para garantir a segurança, eficiência e agilidade na entrada de informações e nos cálculos.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Excel 2013 - Avançado", "Vínculo entre planilhas", "Gráfico de Pizza", "Inserindo um gráfico em outro para enfatizar itens"]
+      }, {
+        "title": " Aula 02",
+        "items": ["Congelar e Descongelar Painéis", "Função SE() - Condição e Operadores Relacionais", "Função SE() - Resultando em fórmulas"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Função SE() - Resultando em textos", "Função SE() - Mais de duas respostas", "Função SE() - Integrando a função E()"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Função SE() - Integrando a função OU()", "Formatação Condicional - Parte I", "Formatação Condicional - Parte II"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Planilhas de Exercício - Parte I", "Planilhas de Exercício - Parte II", "Planilhas de Exercício - Parte III"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Função CONT.SE()", "Função SOMASE()", "Arredondando valores", "Planilha de Projeção de Vendas - Parte I", "Planilha de Projeção de Vendas - Parte II"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Criar mala direta no Word com dados do Excel", "Comando Filtrar", "Função Subtotal() - Filtrar"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Comando Filtrar - Avançado", "Tabela Dinâmica", "Função PROCV() - Parte I"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Função PROCV() - Parte II", "Função PROCV() - Parte III", "Função PROCV() - Parte IV"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Função PROCH()", "Função PGTO()", "Atingir Metas", "Solver"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Validação de dados", "Macro - Parte I", "Macro - Parte II", "Inserindo controles de formulário"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Revisão - Parte I"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Revisão - Parte II"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Teste de Excel 2013 - Avançado"]
+      }]
+    }, {
+      "name": "PowerPoint 2013 - 18 horas",
+      "description": "O PowerPoint 2013 é um gerenciador de apresentações que podem ser desde cartões virtuais para enviar aos amigos até para empresas.Uma apresentação pode conter textos, figuras, filmes, músicas ou todas essas opções juntas.",
+      "classes": [{
+        "title": " Aula 01",
+        "items": ["Introdução e novidades do PowerPoint 2013", "Conhecendo o ambiente de trabalho", "O modo de exibição Microsoft Office Backstage", "Criar uma apresentação no PowerPoint 2013", "Salvar e abrir uma apresentação"]
+      }, {
+        "title": " Aula 02",
+        "items": ["Formatos de tela", "Layout dos slides", "Inserir e formatar textos", "Exibir uma apresentação", "Formatando o plano de fundo Sólido"]
+      }, {
+        "title": " Aula 03",
+        "items": ["Formas", "Efeitos de formas", "Guias inteligentes", "Ferramenta conta-gotas", "Formatando plano de fundo – Texturas e imagens"]
+      }, {
+        "title": " Aula 04",
+        "items": ["WordArts", "Formatando o plano de fundo Gradual", "Imagens online", "Inserir e formatar imagens", "Efeitos artísticos "]
+      }, {
+        "title": "Aula 05",
+        "items": ["Ajustando imagens", "Captura de tela", "Inserir e converter em SmartArt", "Removendo fundo de imagens", "Modelos"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Temas", "Aprendendo a usar o Slide Mestre", "Transição"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Redes sociais no Brasil – slide 01", "Redes sociais no Brasil – Slide mestre", "Redes sociais no Brasil – Slide 02", "Redes sociais no Brasil – Slide 03", "Redes sociais no Brasil – Slide 04", "Redes sociais no Brasil – Slide 05"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Personalizando Animações", "Introdução – Áudio no PowerPoint 2013", "Inserir Áudio", "Formatar Áudio", "Organizando a apresentação em seções lógicas", "AutoRecuperação"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Exibir apresentação sem abrir o PowerPoint", "Inserir Vídeos", "Formatando Vídeos", "Vincular um vídeo a sua apresentação "]
+      }, {
+        "title": "Aula 10",
+        "items": ["Trabalhando com Tabelas", "Trabalhando com Gráficos", "Inserindo animações em Gráficos", "Imprimindo Slides"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Redes sociais no Brasil – Slide 06", "Redes sociais no Brasil – Slide 07", "Redes sociais no Brasil – Slide 08", "Redes sociais no Brasil – Slide 09", "Redes sociais no Brasil – Slide 10"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Salvar a apresentação como PDF", "Criando um Backup de sua apresentação", "Otimizando sua apresentação", "Trabalhando em qualquer lugar"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Dicas para criar uma apresentação eficiente", "Dicas para exibir uma apresentação eficiente", "Protegendo uma apresentação com senha"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Redes sociais no Brasil – Slide 11", "Redes sociais no Brasil – Slide 12", "Redes sociais no Brasil – Slide 13", "Redes sociais no Brasil – Slide 14", "Redes sociais no Brasil – Slide 15"]
+      }, {
+        "title": "Aula 15",
+        "items": ["Crie um vídeo de sua apresentação", "Transmitindo uma apresentação remotamente", "Modo de exibição apresentador"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Revisão – Parte I"]
+      }, {
+        "title": "Aula 17",
+        "items": ["Revisão – Parte II"]
+      }, {
+        "title": "Aula 18",
+        "items": ["Teste do PowerPoint 2013"]
+      }]
+    }]
+  },
+  "logistica-integrada": {
+    "name": "Logística Integrada",
+    "modules": [{
+      "name": "Logística de Produção - 12 horas",
+      "description": "Este curso tem o objetivo de capacitar os profissionais envolvidos direta ou indiretamente nas técnicas de produção em conhecer os conceitos básicos de como administrar o fluxo logístico dos materiais dentro de uma fábrica.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Introdução a logística", "Histórico da logística", "Inventário físico"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Layout ou Arranjo físico", "Almoxarifado", "Classificação de materiais"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Classificação ABC", "Etapas da Classificação - Parte I", "Etapas da Classificação - Parte II", "Código de barras", "Supply Chain Management (SCM)"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Custos de estoque – Parte I", "Custos de estoque – Parte II", "Custos de estoque – Parte III"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Níveis de estoque – Parte I", "Níveis de estoque – Parte II", "Níveis de estoque – Parte III"]
+      }, {
+        "title": "Aula 06",
+        "items": ["CMV – Custo das Mercadorias Vendidas", "Método de avaliação de estoque - PEPS", "Conferindo resultados - PEPS"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Método de avaliação de estoque - UEPS", "Conferindo Resultados - UEPS"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Sistemas de produção", "Exemplos de sistemas de produção", "Subsistemas de produção", "PCP – Planejamento e Controle de Produção", "Estrutura dos produtos"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Planejamento de materiais", "Kanban", "Filosofia Just in Time"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Revisão – Parte I"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Revisão – Parte II"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Teste – Logística de produção"]
+      }]
+    }, {
+      "name": "Logística de Distribuição – 14 horas",
+      "description": "O curso de logística de distribuição visa apresentar e discutir conceitos, métodos e técnicas relacionadas às atividades de logística e distribuição para alunos interessados nesse campo, para utilização na administração de estoques.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Introdução a Logística", "Centros de distribuição (CD)", "Recebimento", "Movimentação"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Armazenagem", "Estudo de caso - I", "Separação de pedidos"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Expedição", "Crossdocking", "Distribuição física"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Modalidades de distribuição – Parte I", "Canal de distribuição", "Estrutura dos canais de distribuição"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Atacado", "Atacado e varejo no canal de distribuição", "Estudo de caso – II"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Embalagem", "Estudo de caso - III", "Departamento de transportes"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Modais de transporte", "Modal Aquaviário", "Modal Rodoviário", "Modal Ferroviário"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Modal Dutoviário", "Modal Aeroviário", "Estudo de caso – IV"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Estudo de caso - V", "Logística reversa", "Custos logísticos – Parte I"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Custos logísticos – Parte II", "Estudo de caso - VI", "Gerenciamento de custos", "Estratégias para redução de custos"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Lucratividade direta por produto", "Análise de lucratividade do cliente", "Custeio total de aquisição", "Vantagens do Custeio total de aquisição"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Revisão – Parte I"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Revisão – Parte II"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Teste – Logística de distribuição."]
+      }]
+    }]
+  },
+  "conhecimentos-bancarios": {
+    "name": "Conhecimentos Bancários",
+    "modules": [{
+      "name": "Conhecimentos Bancários - 18 horas",
+      "description": "Com estas informações você poderá agregar conhecimento, seja para ingressar em uma carreira bancária ou qualquer outra que envolva nosso sistema financeiro, seja para prestar concursos públicos onde este conhecimento é exigido ou simplesmente para tomar decisões mais conscientes sobre aspectos financeiros da sua vida.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Introdução – Bancos", "Agente Superavitário e Deficitário", "Spread"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Estrutura do Sistema Financeiro Nacional – CMN", "Estrutura do Sistema Financeiro Nacional – BACEN"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Estrutura do Sistema Financeiro Nacional – CVM", "Estrutura do Sistema Financeiro Nacional – CRSFN"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Diferentes Tipos de Bancos – Comercial", "Diferentes Tipos de Bancos – Cooperativo", "Diferentes Tipos de Bancos – Múltiplo"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Diferentes Tipos de Bancos – Investimento", "Diferentes Tipos de Bancos – Desenvolvimento", "Diferentes Tipos de Bancos – BNDES"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Abertura de Contas", "Pessoa Física e Pessoa Jurídica", "Domicílio"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Capacidade Civil", "Conta Corrente", "Conta Poupança"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Conta Salário", "Encerramento de Conta", "SELIC e TR"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Cheque – Definição e Prazos", "Cheque – Compensação", "Cheque – Emissão"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Cheque – Preenchimento", "Cheque – Devolução", "Cheques – CCF"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Cartão de Crédito", "Tipos de Cartão de Crédito", "Cartão de Crédito – Estrutura"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Transferências – DOC", "Transferências – TED"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Empréstimo e Financiamento", "Empréstimo Consignado", "Cheque Especial"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Crédito Pessoal", "Crédito Rural", "CDC – Crédito Direto ao Consumidor"]
+      }, {
+        "title": "Aula 15",
+        "items": ["Consórcio", "Leasing"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Revisão – Parte I"]
+      }, {
+        "title": "Aula 17",
+        "items": ["Revisão – Parte II"]
+      }, {
+        "title": "Aula 18",
+        "items": ["Teste"]
+      }]
+    }]
+  },
+  "assistente-contabil": {
+    "name": "Assistente Contábil",
+    "modules": [{
+      "name": "Auxiliar de Departamento Pessoal - 18 horas",
+      "description": "Neste curso, o aluno aprenderá rotinas de departamento pessoal, tais como admissão e demissão de funcionários, cálculo de férias, rescisão, preenchimento de carteira de trabalho e tudo relacionado aos funcionários de uma empresa.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Introdução", "Noções de Direito do Trabalho", "Empregador e Empregado", "Processo de Recrutamento e Seleção"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Processo de Admissão do Empregado", "Retenção e Recibo de Documentos", "Exame Médico"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Registro na Empresa", "Carteira de Trabalho", "Preenchimento da CTPS"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Contrato por prazo Determinado e Indeterminado", "Contrato de Experiência", "Trabalhador Aprendiz", "Estagiário", "Trabalhador Temporário"]
+      }, {
+        "title": "Aula 05",
+        "items": ["PIS / PASEP", "CAGED", "RAIS"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Jornada de Trabalho", "Intervalos entre jornadas e intrajornadas", "Marcação de Ponto", "Descanso Semanal Remunerado - DSR", "Feriados"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Remuneração", "Adicional de Insalubridade", "Adicional de Periculosidade", "Adicional Noturno"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Horas Extra", "Salário Família", "Auxílio Doença", "Descontos"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Contribuição Sindical", "Contribuição Confederativa e Assistencial", "Vale Transporte", "FGTS"]
+      }, {
+        "title": "Aula 10",
+        "items": ["INSS", "Imposto de Renda - IR", "IRRF - Imposto de Renda Retido na Fonte"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Folha de Pagamento", "Modelo de Folha de Pagamento", "Modelo de Folha de Pagamento - Parte II", "Recibo de Pagamento"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Férias - Períodos de Aquisição e Concessão", "Férias Coletivas", "Remuneração de Férias"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Férias - Outros Fatores", "Calculando as Férias", "Vendendo parte das Férias", "Recibo de Férias"]
+      }, {
+        "title": "Aula 14",
+        "items": ["13°(Décimo Terceiro) Salário", "Calculando o 13° Salário", "Rescisão do Contrato de Trabalho", "Aviso Prévio"]
+      }, {
+        "title": "Aula 15",
+        "items": ["Rescisão - Documentos necessários", "Cálculo da Rescisão", "Preenchimento da TRCT", "Seguro Desemprego"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Revisão - Parte I"]
+      }, {
+        "title": "Aula 17",
+        "items": ["Revisão - Parte II"]
+      }, {
+        "title": "Aula 18",
+        "items": ["Teste de Auxiliar de Dep. Pessoal "]
+      }]
+    }, {
+      "name": "Auxiliar de Contabilidade - 16 horas",
+      "description": "Este curso irá apresentar os conceitos básicos e essenciais da área contábil.Durante o curso, o aluno irá aprender a efetuar lançamentos contábeis, classificar contas, criar balancetes, apurar custos, entre outras coisas.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Introdução", "Conceito, objetivo e aplicação ", "Empresas ", "Nome Fantasia e Razão Social"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Documentos", "Expressões", "Patrimônio"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Ativo e Passivo", "Patrimônio Líquido", "Balanço Patrimonial"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Fontes de Patrimônio Líquido", "Fatos Contábeis", "Contas"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Débito e Crédito", "Representação gráfica das contas ", "Plano de Contas"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Escrituração - Partidas Dobradas", "Lançamentos", "Razonetes", "Lançamentos e Razonetes (Praticando)"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Balancete de Verificação", "Exercício Completo"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Resultado", "Receitas", "Gastos"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Despesas ", "Custos", "Apuração de Custos"]
+      }, {
+        "title": "Aula 10",
+        "items": ["CMV - Custo das Mercadorias Vendidas", "Método PEPS - Introdução", "Método PEPS - Exemplo Prático"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Método PEPS - Conferindo os resultados", "Método PEPS - Exercício Completo"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Método UEPS", "Método UEPS - Exercício Completo"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Média Ponderada", "Média Ponderada - Exercício Completo", "Concluindo os métodos"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Revisão - Parte I "]
+      }, {
+        "title": "Aula 15",
+        "items": ["Revisão - Parte II"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Teste de Auxiliar de Contabilidade."]
+      }]
+    }]
+  },
+  "secretariado-administrativo": {
+    "name": "Secretariado Administrativo",
+    "modules": [{
+      "name": "Qualidade no Atendimento - 08 horas",
+      "description": "A qualidade no atendimento é um importante diferencial.Este curso tem como abordagem principal a postura do atendente perante o cliente, tanto no atendimento pessoal como pelo telefone e on - line.São tópicos sobre ética, gafes, colocação da voz, entre outros.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Qualidade no Atendimento - Introdução", "Ética profissional", "Etiqueta profissional"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Dicas de visual - Parte I", "Dicas de visual - Parte II", "Conheça a empresa", "A importância da voz"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Seja um bom ouvinte", "Equilíbrio emocional", "Atendimento pessoal", "Cuidados com a postura"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Atendimento telefônico", "Gafes ao telefone", "Atendimento on-line"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Ganhe tempo ao telefone", "Seja eficiente ao transferir ligações", "Seja eficiente ao anotar recados"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Tipos de clientes", "O cliente tem sempre razão?", "Fidelizando o cliente"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Revisão"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Prova"]
+      }]
+    }, {
+      "name": "Organização e Planejamento - 08 horas",
+      "description": "Organizar o ambiente de trabalho e planejar as atividades a serem realizadas são primordiais para a competência profissional.Aquele que se atenta em trabalhar com organização e planeja suas atividades oferece mais qualidade e produtividade.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Organização e Planejamento - Introdução", "Organize-se e estabeleça prioridades", "Atente-se aos detalhes"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Agenda de compromissos", "Agenda de tarefas", "Agenda de contatos"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Ficha de atendimento", "Relatório de atendimentos", "Check list"]
+      }, {
+        "title": "Aula 04",
+        "items": ["A importância do Arquivo", "Arquivo ativo, semi-ativo e permanente"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Técnicas de Arquivamento", "Arquivo físico", "Arquivo digital"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Planejamento de reuniões", "Tipos de reuniões", "Fazendo a ata de reunião"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Revisão"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Prova"]
+      }]
+    }, {
+      "name": "Windows Live Mail - 10 horas",
+      "description": "O Windows Live Mail é um prático e útil gerenciador de e - mails recebidos e enviados.O aluno aprende desde o cadastro de contas, a criação de lista de destinatários, o envio de e - mails com anexos, a utilização de pastas, o bloqueio de lixo eletrônico até o agendamento de eventos.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["O que é um e-mail", "Contas de e-mail", "Utilizando o navegador"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Criando uma conta de usuário do Windows", "Cadastrando contas de e-mail", "Conhecendo o Windows Live Mail"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Criando uma mensagem de e-mail", "Enviando e recebendo e-mail", "Marcando como 'lido' ou 'não lido'"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Cadastrando contatos", "Destinatário da lista de contatos", "Formatando e Salvando como rascunho"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Inserindo Fotos na mensagem", "E-mails com anexo", "Responder e Encaminhar"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Alterando o Layout do Windows Live Mail", "Configurando opções", "Itens excluídos", "Lixo Eletrônico"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Calendário do Windows", "Novo Evento", "Evento a partir de uma mensagem"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Visualizando os eventos agendados", "Imprimindo os eventos agendados", "Excluindo os eventos agendados"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Revisão"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Prova"]
+      }]
+    }, {
+      "name": "Ortografia e Gramática - 16 horas",
+      "description": "Por quantas vezes, em suas atividades escritas, você ficou na dúvida se a palavra tinha acento, se era com“ X” ou“ CH”, se era com hífen ou se a frase tinha vírgula ? Este curso contém orientações sobre todas essas dúvidas e várias outras que fazem parte do nosso cotidiano.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Ortografia e Gramática - Introdução", "Identificando a sílaba tônica", "Regras básicas de acentuação - Parte I", "Regras básicas de acentuação - Parte II"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Acentos em hiatos e ditongos", "Acentos em formas verbais", "O uso da crase - Parte I", "O uso da crase - Parte II "]
+      }, {
+        "title": "Aula 03",
+        "items": ["O uso da crase - Parte III", "“X” ou “CH”", "“G” ou “J”", "“S”, “Z” ou “X”"]
+      }, {
+        "title": "Aula 04",
+        "items": ["O uso do hífen - Parte I", "O uso do hífen - Parte II", "Homônimos e Parônimos"]
+      }, {
+        "title": "Aula 05",
+        "items": ["O plural dos substantivos compostos - Parte I", "O plural dos substantivos compostos - Parte II", "O gênero dos adjetivos", "O plural dos adjetivos"]
+      }, {
+        "title": "Aula 06",
+        "items": ["O uso dos porquês - Parte I", "O uso dos porquês - Parte II", "O uso dos porquês - Parte III", "O uso dos porquês - Parte IV"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Cacófato", "Pleonasmo vicioso", "Gerundismo"]
+      }, {
+        "title": "Aula 08",
+        "items": ["“quê” ou “que”", "“mim” ou “eu”", "“aonde” ou “onde”", "“mas” ou “mais”"]
+      }, {
+        "title": "Aula 09",
+        "items": ["“ao encontro de” ou “de encontro à”", "“demais” ou “de mais”", "“senão” ou “se não”", "“afim” ou “a fim”"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Pontuação - Ponto", "Pontuação - Vírgula parte I", "Pontuação - Vírgula parte II", "Pontuação - Ponto e vírgula"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Pontuação - Dois pontos", "Pontuação - Travessão", "Pontuação - Ponto de interrogação", "Pontuação - Ponto de exclamação"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Pontuação - Reticências", "Pontuação - Aspas", "Pontuação - Parênteses"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Concordância verbal - Haver e Fazer", "Concordância verbal - Ser", "Concordância nominal"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Revisão - Parte I"]
+      }, {
+        "title": "Aula 15",
+        "items": ["Revisão - Parte II"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Teste de Ortografia e Gramática"]
+      }]
+    }, {
+      "name": "Gerenciamento Financeiro - 10 horas",
+      "description": "Durante o dia a dia empresarial são diversas as atividades financeiras que precisam ser realizadas, desde o cálculo de um troco, juros, descontos, até a criação de gráficos e demonstrativos.Atividades que serão detalhadamente analisadas durante este curso.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Gerenciamento Financeiro - Introdução", "A matemática no dia-a-dia", "Cálculos com números decimais", "Regras de arredondamento"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Utilizando a calculadora do Windows", "Média", "Análise de prazos"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Porcentagem", "Juros Simples - Parte I", "Juros Simples - Parte II"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Desconto", "Calculando a taxa aplicada", "Cuidado com o troco", "Extrato bancário"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Revisão de Excel - Parte I", "Revisão de Excel - Parte II"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Fluxo de caixa - Criando uma planilha mensal", "Formatando a planilha mensal", "Realizando cálculos diários e mensais"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Replicando a planilha modelo", "Inserindo lançamentos de créditos e débitos", "Criando uma planilha anual"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Realizando cálculos mensais e anuais", "Criando gráficos demonstrativos", "Criando um relatório financeiro"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Revisão"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Prova", "Anexo 'A tabuada'", "Anexo 'Tabela para cálculo de dias corridos'"]
+      }]
+    }]
+  },
+  "caixa-e-crediarista": {
+    "name": "Caixa e Creadiarista",
+    "modules": [{
+      "name": "Operador de Caixa - 18 horas",
+      "description": "Neste curso aprenderemos as técnicas e conhecimentos necessários para nos tornarmos um excelente profissional, como: fazer um atendimento de qualidade ao cliente, devolver trocos da maneira correta, trabalhar com Emissor de Cupom Fiscal(ECF), realizar consulta de cédulas falsas, entre muitas outras.Além de trabalharmos também com um sistema automatizado mostrando suas funções e facilidade de uso.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Introdução", "Operador de caixa – Conceito e principais funções", "Ferramentas de trabalho", "Conhecendo a empresa e sua função"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Atendimento ao cliente", "Qualidade no atendimento", "Ética profissional"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Abrindo o caixa", "Recebendo o fundo de caixa", "Realizando vendas", "Cancelando vendas"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Operações de caixa – Troco", "Operações de caixa – Descontos", "Operações de caixa – Acréscimos", "Transferindo dinheiro entre caixas"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Introdução – Nota fiscal paulista", "Trabalhando com ECF", "Cancelando o cupom fiscal", "Colocando o papel no ECF"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Pagamentos em dinheiro", "Consultas de cédulas – R$ 100", "Consultas de cédulas – R$ 50", "Consultas de cédulas internacionais"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Pagamentos em cheque", "Preenchendo os diferentes tipos de cheques", "Recebendo cheques com segurança"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Pagamentos em cartões de crédito", "Pagamentos em cartão de débito", "Segurança ao receber pagamentos com cartão", "Pagamentos com vale refeição e vale alimentação"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Calculando porcentagem", "Juros simples", "Juros compostos – Parte I", "Juros compostos – Parte II", "Juros compostos – Parte III"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Conhecendo o sistema automatizado", "Realizando a abertura do turno", "Fechando e reabrindo turnos"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Realizando vendas com pagamento em dinheiro", "Realizando vendas com pagamento em cartão", "Realizando vendas com pagamento em cheque", "Realizando vendas com pagamento em carnê"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Descontos e acréscimos em produtos", "Realizando troca ou devolução de produtos", "Apagando e cancelando lançamentos", "Sistema automatizado – considerações finais"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Sangrias", "Leitura X", "Redução Z", "Fechamento de caixa", "Organizando seu ambiente de trabalho"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Serviços pós-venda", "Troca de produtos ou mercadorias", "Devolução de produtos ou mercadorias", "Cuidados com a fiscalização"]
+      }, {
+        "title": "Aula 15",
+        "items": ["Tipos de clientes", "O cliente tem sempre razão?", "Como fidelizar seus clientes?"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Revisão – Parte I"]
+      }, {
+        "title": "Aula 17",
+        "items": ["Revisão – Parte II"]
+      }, {
+        "title": "Aula 18",
+        "items": ["Teste de Operador de caixa"]
+      }]
+    }, {
+      "name": "Crediário e Cobrança - 14 horas",
+      "description": "Neste curso serão abordadas as diversas informações e análises a respeito de concessão e limites de crédito aos clientes, bem como a maneira mais adequada de se realizar as cobranças, seja por telefone, carta e visita pessoal.E todas essas atividades poderão ainda ser controladas por um sistema automatizado, que facilitará e aperfeiçoará o crediário, a cobrança e o bom relacionamento com o cliente.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Apresentação do curso", "Principais tópicos", "Crediário e cobrança – conceito e principais funções", "Importância da política de crédito e cobrança"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Definição de crédito", "Tipos de crédito", "Política de crédito", "Modalidades da política de crédito"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Identificação do cliente", "Ficha cadastral", "Documentos comprovatórios"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Checagem das informações", "Consultando o SPC", "Consultando o SERASA"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Analisando o crédito", "Os 5 Cs do crédito", "Análise subjetiva", "Credit Score"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Limites de crédito", "Os riscos do crédito", "Garantias de crédito"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Introdução a cobrança", "Importância de uma política de cobrança", "Cobrança não é punição", "Planos de cobrança"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Elaborando carta de cobrança", "Cobrança por telefone", "Cobrança por visita pessoal"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Cobrando com competência", "O que não fazer no momento da cobrança", "Conceito de inadimplência"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Apresentando o sistema automatizado", "Realizando o cadastro de clientes", "Editando o cadastro de clientes", "Excluindo o cadastro de clientes"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Realizando busca por clientes", "Consultando clientes inadimplentes", "Buscando histórico de compras do cliente"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Revisão – Parte I"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Revisão – Parte II"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Teste de Crediário e cobrança"]
+      }]
+    }]
+  },
+  "profissional-cad": {
+    "name": "Profissional CAD",
+    "modules": [{
+      "name": "AutoCAD 2011 2D (mod I) - 18 horas",
+      "description": "No primeiro módulo do curso de AutoCAD o aluno aprenderá, de forma simples e prática, a utilizar os comandos e ferramentas mais utilizadas para a criação de projetos.Estes comandos e / ou ferramentas são a base para se desenvolver qualquer projeto no AutoCAD",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Introdução ao AutoCAD 2011 ", "Conhecendo o AutoCAD", "Abrir, salvar e navegar entre arquivos ", "Visualização"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Modos de seleção", "Recursos de Edição", "Ambientes de trabalho", "Coordenadas"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Unidades de medidas", "Linhas – Parte I", "Linhas – Parte II", "Geometrias poligonais"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Circunferências e Elipses", "Pontos de precisão", "Barra de status"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Exercícios de fixação"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Mover, Copiar e Espelhar", "Escalonar, Rotacionar e Alinhar", "Estender e Aparar"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Chanfros e Arredondamentos", "Separar e Copiar entidades", "Cópias paralelas"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Dimensão", "Juntar e Quebrar entidades", "Edição de entidades"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Exercícios de fixação"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Extrair informações", "Linhas de referência", "Pontos de referência", "Divisão de geometrias"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Camadas", "Texto", "Hachuras"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Blocos", "Propriedades das entidades", "Imagens", "Desenho isométrico"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Exercícios de fixação"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Projeto: Planta Baixa – Parte "]
+      }, {
+        "title": "Aula 15",
+        "items": ["Projeto: Planta Baixa – Parte II"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Projeto: Piscina"]
+      }, {
+        "title": "Aula 17",
+        "items": ["Revisão"]
+      }, {
+        "title": "Aula 18",
+        "items": ["Teste"]
+      }]
+    }, {
+      "name": "AutoCAD 2011 2D (mod II) - 22 horas",
+      "description": "No segundo módulo do curso o aluno aprenderá novos recursos e técnicas, fazendo bom uso dos recursos vistos no Módulo I do curso de AutoCAD.Planta baixa, cortes e fachada serão alguns dos projetos a serem desenvolvidos.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Introdução ao AutoCAD 2011 – 2D (Módulo II)", "Elementos da biblioteca", "Hachuras (Gradiente)"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Express Tools – Parte I", "Express Tools – Parte II", "Express Tools – Parte III"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Revision Cloud", "Tabela – Parte I", "Tabela – Parte II"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Arquivos de referência externa", "Escala"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Planta baixa humanizada – Parte I"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Planta baixa humanizada – Parte II"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Planta baixa humanizada – Parte III"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Planta baixa humanizada – Parte IV"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Cota – Parte I", "Cota – Parte II"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Planta de cobertura – Parte I", "Planta de cobertura – Parte II"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Corte - Introdução", "Corte A-A – Parte I"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Corte A-A – Parte II", "Corte A-A – Parte III"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Corte A-A – Parte IV", "Corte B-B – Parte I"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Corte B-B – Parte II", "Corte B-B – Parte III"]
+      }, {
+        "title": "Aula 15",
+        "items": ["Corte B-B – Parte IV", "Fachada – Introdução", "Fachada – Parte I"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Fachada – Parte II", "Fachada – Parte III"]
+      }, {
+        "title": "Aula 17",
+        "items": ["Apresentação do Projeto", "Organização do projeto – Parte I", "Organização do projeto – Parte II"]
+      }, {
+        "title": "Aula 18",
+        "items": ["Paper Space – Parte I", "Paper Space – Parte II"]
+      }, {
+        "title": "Aula 19",
+        "items": ["Purge", "Estilos de plotagem", "Plotagem"]
+      }, {
+        "title": "Aula 20",
+        "items": ["Exportando o projeto", "Blocos – Atributos"]
+      }, {
+        "title": "Aula 21",
+        "items": ["Revisão"]
+      }, {
+        "title": "Aula 22",
+        "items": ["Teste"]
+      }]
+    }, {
+      "name": "AutoCAD 2011 3D - 20 horas",
+      "description": "Além de projetos em duas dimensões, o AutoCAD também pode ser utilizado na elaboração de projetos em três dimensões.Neste curso o aluno irá adquirir os conhecimentos necessários para manipular as entidades 3 D.No decorrer deste curso será desenvolvido o projeto 3 D de uma residência.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Introdução ao AutoCAD 2011 - 3D", "Vantagens de um projeto 3D", "Tipos de projetos 3D", "Interface gráfica"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Visualizando projetos 3D", "Sistema de Coordenada Global e Dinâmico", "Sistema de Coordenada do Usuário", "Pontos de precisão 3D"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Métodos de criação de Primitivas Sólidas", "Primitivas Sólidas – Parte I", "Primitivas Sólidas – Parte II", "Filtros de seleção e Gizmos"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Mover, Rotacionar e Escalonar", "Alinhar e Espelhar", "Copiar e Cópias Múltiplas", "Extrude e Presspull"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Revolve e Sweep", "Loft e Shell", "Operações booleanas", "Slice e Imprint"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Chanfros e Arredondamentos", "Inclinar e Extrudar faces", "Section Plane"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Projeto 3D – Parte I", "Projeto 3D – Parte II"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Projeto 3D – Parte III", "Projeto 3D – Parte IV"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Primitivas de Malha 29 - Edição de Primitivas de Malha", "Modelagem de Malhas – Parte I", "Modelagem de Malhas – Parte II", "Superfícies – Parte I"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Superfícies – Parte II", "Blend, Patch e Offset", "Edição de Superfícies – Parte I", "Edição de Superfícies – Parte II"]
+      }, {
+        "title": "Aula 11",
+        "items": ["NURBS 38 - Materiais – Parte I", "Materiais – Parte II", "Criando Materiais"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Projeto 3D – Parte V", "Projeto 3D – Parte VI"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Projeto 3D – Parte VII", "Projeto 3D – Parte VIII", "Projeto 3D – Parte IX"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Vistas bidimensionais 47 - Plotagem 3D – Parte I", "Plotagem 3D – Parte II", "Exportando o projeto"]
+      }, {
+        "title": "Aula 15",
+        "items": ["Projeto 3D – Parte X", "Projeto 3D – Parte XI", "Projeto 3D – Parte XII"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Projeto 3D – Parte XIII", "Projeto 3D – Parte XIV"]
+      }, {
+        "title": "Aula 17",
+        "items": ["Projeto 3D – Parte XV", "Projeto 3D – Parte XVI"]
+      }, {
+        "title": "Aula 18",
+        "items": ["Projeto 3D – Parte XVII"]
+      }, {
+        "title": "Aula 19",
+        "items": ["Revisão"]
+      }, {
+        "title": "Aula 20",
+        "items": ["Teste"]
+      }]
+    }, {
+      "name": "3ds Max Design - 18 horas",
+      "description": "O software 3 ds Max Design é uma solução completa para projeto,modelagem, animação e renderização 3 D.Avalie e venda projetos antes de criá - los com interações rápidas, análises precisas de iluminação natural e imagens e animações de alto impacto.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Introdução ao 3ds Max Design", "Interface", "Configurando o 3ds Max Design"]
+      }, {
+        "title": "Aula 02",
+        "items": ["ViewPorts", "Criação e Seleção de objetos", "Formas de visualização"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Propriedades do objeto", "Rotação e Escala", "Duplicar e Clonar"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Maquete eletrônica – Parte 1", "Maquete eletrônica – Parte 2"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Maquete eletrônica – Parte 3", "Maquete eletrônica – Parte 4"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Maquete eletrônica – Parte 5", "Maquete eletrônica – Parte 6"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Maquete eletrônica – Parte 7", "Maquete eletrônica – Parte 8", "Maquete eletrônica – Parte 9"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Maquete eletrônica – Parte 10", "Maquete eletrônica – Parte 11", "Maquete eletrônica – Parte 12"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Maquete eletrônica – Parte 13", "Maquete eletrônica – Parte 14"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Materiais – Parte 1", "Materiais – Parte 2", "Materiais – Parte 3"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Materiais – Parte 4", "Materiais – Parte 5", "Materiais – Parte 6"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Blocos – Parte 1", "Blocos – Parte 2", "Blocos – Parte 3"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Câmera – Parte 1", "Luzes – Parte 1", "V-Ray – Parte 1"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Renderização - Parte 1"]
+      }, {
+        "title": "Aula 15",
+        "items": ["Câmera – Parte 2", "Luzes – Parte 2", "V-Ray – Parte 2"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Renderização - Parte 2"]
+      }, {
+        "title": "Aula 17",
+        "items": ["Revisão"]
+      }, {
+        "title": "Aula 18",
+        "items": ["Teste"]
+      }]
+    }]
+  },
+  "design-grafico": {
+    "name": "Design Gráfico",
+    "modules": [{
+      "name": "CorelDRAW X6 – Básico 16 horas",
+      "description": "O curso Corel X6 - Básico destina - se às pessoas que pretendem conhecer as ferramentas básicas oferecidas por este software e explorar seus recursos.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Introdução ao CorelDRAW X6 – Básico", "Tela de boas-vindas", "Ambiente de trabalho", "Configurar página", "Ferramentas Forma – ParteI"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Ferramentas Forma – Parte II", "Ferramentas Forma – Parte III", "Ferramenta Seleção", "Propriedades das Ferramentas - Parte I", "Propriedades das Ferramentas - Parte II"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Teclas auxiliares", "Agrupar, Desagrupar e Desagrupar tudo", "Copiar objetos", "Duplicar e Clonar", "Distância de Deslocamento e Duplicado"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Ferramentas: Zoom e Mão", "Ferramenta Forma", "Converter em curva", "Adicionar e Remover Nós", "Editar curvas e linhas", "Ferramentas de corte e apagamento"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Ferramenta Mão livre", "Sistema de Cores", "Colorir objetos", "Tonalidade e Mistura de cores", "Ferramenta Texto"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Propriedades do texto – Parte I", "Propriedades do texto – Parte II", "Ajustar texto ao caminho", "Tabela", "Mesclar, Separar e Dividir"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Formatar tabela", "Converter tabela em texto", "Inserir imagens", "Símbolos de caracteres", "Imagem Bitmap e Vetorial"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Importar arquivos", "Páginas do documento", "Plano de fundo da página", "Linhas-guia", "Guias de alinhamento – Parte I"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Guias de alinhamento – Parte II", "Alinhar e distribuir", "Ordem dos objetos", "Tipos de preenchimento – Parte I"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Arte: Cardápio"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Tipos de preenchimento – Parte II", "Soldar", "Aparar"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Interseção", "Frente menos verso/Verso menos frente", "Criar limite", "Combinar"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Arte: CD/DVD"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Arte: Cartão de visita"]
+      }, {
+        "title": "Aula 15",
+        "items": ["Revisão"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Teste"]
+      }]
+    }, {
+      "name": "CorelDRAW X6 – Avançado - 14 horas",
+      "description": "O curso Corel X6 - Avançado destina - se àqueles que, depois de conhecerem os recursos básicos do Corel X6, pretendem dar continuidade ao seu aprendizado, fazendo uso de técnicas e ferramentas avançadas.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Introdução ao CorelDRAW X6 – Avançado", "Ferramenta Contorno", "Copiar propriedades de...", "Converter contorno em objeto", "Código de barras"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Ferramentas: Mancha e Espiralado", "Ferramentas: Atrair e Repelir", "PowerClip", "Adicionar Perspectiva", "Envelope"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Mistura", "Mistura interativa", "Contorno", "Contorno interativo", "Sombreamento interativo"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Arte: Capa para CD/DVD"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Distorção interativa", "Extrusão", "Extrusão interativa", "Transparência interativa"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Arte: Folder"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Corel CAPTURE X4", "Mídia artística", "Dimensão", "Área imprimível e Sangramento"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Arte: Fachada"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Efeitos Bitmap", "Converter em Bitmap", "PowerTRACE", "Exportar arquivos", "Camadas"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Arte: Imã"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Propriedades das camadas", "Impressão mesclada", "Configuração das cores", "Visualização e Impressão", "Separação de cores"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Arte: Adesivo"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Revisão"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Teste"]
+      }]
+    }, {
+      "name": "Photoshop CS6 - Básico 14 horas",
+      "description": "Conheça procedimentos básicos do Photoshop CS6.Este curso é indicado para alunos que não possuem nenhum tipo de conhecimento do programa e estão em busca de aprender as suas funções básicas, como criação de documentos e edição de imagens e textos.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Photoshop CS6 - Introdução", "Área de trabalho – Nova interface", "Formatos de imagens", "Imagem Bitmap e Vetorial", "Dimensão e Resolução"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Criando uma imagem", "Abrindo uma imagem", "Salvando uma imagem", "Utilizando o Auto Salvar"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Painéis", "Ferramentas: Zoom e Mão", "Régua e grade", "Primeiro plano e Plano de fundo", "Ferramenta pincel"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Propriedades do pincel", "Painel pincéis", "Histórico", "Brilho/Contraste"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Níveis", "Matiz/Saturação", "Curvas", "Equilíbrio de cores"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Cor seletiva", "Substituir cor", "Seleção Retangular e elíptica", "Propriedades das seleções"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Seleções irregulares", "Varinha mágica", "Seleção rápida", "Selecionando intervalo de cores"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Camadas – Parte I", "Camadas – Parte II", "Camadas – Parte III", "Estilos de camada – Parte I", "Estilos de camada – Parte II"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Texto 37 - Estilos de caractere, parágrafo e personalizados", "Distorção de texto", "Ferramenta borracha", "Formas"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Filtros - Conceito", "Filtros – Parte I", "Filtros – Parte II", "Galeria de filtros"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Filtro dissolver", "Filtro correção de lente", "Trabalhando com filtros inteligentes"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Projeto montagem – Parte I", "Projeto montagem – Parte II", "Projeto montagem – Parte III"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Revisão"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Teste"]
+      }]
+    }, {
+      "name": "Photoshop CS6 - Avançado 14 horas",
+      "description": "Conheça procedimentos avançados do Photoshop CS6.Este curso é indicado para alunos que ja tenham concluido o curso de Photoshop CS6 básico ou para pessoas que já conheçam as funções básicas do programa, mas que pretendem aprimorar seus conhecimentos.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Ferramentas: Degradê e Lata de tinta", "Pincel de recuperação para manchas", "Pincel de recuperação"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Ferramenta Carimbo", "Ferramenta Carimbo de padrão", "Ferramenta Desfoque"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Ferramenta Nitidez", "Ferramenta Borrar", "Ferramenta Subexposição", "Ferramenta Superexposição"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Dentes brancos", "Olhos vermelhos", "Removendo espinhas", "Tratamento de estrias"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Pesquisa de cores", "Ferramenta Esponja", "Distorção de imagens", "Escala sensível a conteúdo"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Removendo olheiras", "Retirando Celulite", "Sinais de expressão"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Ferramenta Cortar", "Ferramenta Correção", "Ferramenta Mover sensível a conteúdo"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Máscaras - Conceito", "Máscara rápida", "Máscara de camada", "Máscara de vetor", "Máscara de corte"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Cor dos cabelos", "Cor dos olhos", "Maquiagem digital", "Restauração de fotos"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Introdução – Camera RAW", "Camera RAW – Parte I", "Camera RAW – Parte II", "Camera RAW – Parte III"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Projeto capa de revista – Parte I", "Projeto capa de revista – Parte II", "Projeto capa de revista – Parte III"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Revisão – Parte I"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Revisão – Parte II"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Teste"]
+      }]
+    }, {
+      "name": "InDesign CS4 - 16 horas",
+      "description": "O Adobe InDesign é o sucessor do PageMaker, sendo um programa mais completo, moderno, atualizado e de grande destaque no mercado por seus inúmeros recursos na área de design.Através deste curso, o aluno irá aprender a utilizar este software para o desenvolvimento de revistas,jornais, panfletos informativos, folders, entre outros.",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Introdução ao Adobe InDesign CS4", "Conhecendo a área de trabalho do InDesign CS4", "Criando um novo documento", "Alterando as configurações do documento", "Salvando e abrindo arquivos no InDesign", "Criando documentos a partir de modelos"]
+      }, {
+        "title": "Aula 02",
+        "items": ["Digitando textos - Ferramenta quadro de texto", "Editor de matéria", "Formatando o texto no InDesign CS4", "Criando formas no InDesign CS4", "Aplicação de cores e configuração de linhas"]
+      }, {
+        "title": "Aula 03",
+        "items": ["Aplicação de cores gradiente", "Efeitos - Parte 01", "Efeitos - Parte 02", "Efeitos - Parte 03"]
+      }, {
+        "title": "Aula 04",
+        "items": ["Páginas-Mestre 17 - Propriedades de objetos e textos", "Alinhamento e Distribuição de objetos", "Texto em contorno de objetos"]
+      }, {
+        "title": "Aula 05",
+        "items": ["Agrupamento, Desagrupamento e Bloquear posição", "Exportação para Adobe PDF", "Criação de Tabelas"]
+      }, {
+        "title": "Aula 06",
+        "items": ["Seleção e Edição de Tabelas", "Formatação de Tabelas", "Criação de um arquivo de Livro", "Gerenciando arquivos de Livro"]
+      }, {
+        "title": "Aula 07",
+        "items": ["Conhecendo as configurações de um Jornal", "Iniciando um projeto - Micro Jornal VIPNews", "Jornal VIPNews - Configurando o documento", "Jornal VIPNews - Definindo cabeçalho das páginas"]
+      }, {
+        "title": "Aula 08",
+        "items": ["Jornal VIPNews - Desenvolvimento da capa", "Jornal VIPNews - Caderno Cidades", "Jornal VIPNews - Caderno Policial"]
+      }, {
+        "title": "Aula 09",
+        "items": ["Jornal VIPNews - Caderno Ciência - Parte 01", "Jornal VIPNews - Caderno Ciência - Parte 02", "Jornal VIPNews - Caderno Saúde"]
+      }, {
+        "title": "Aula 10",
+        "items": ["Jornal VIPNews - Caderno Esportes - Parte 01", "Jornal VIPNews - Caderno Esportes - Parte 02", "Jornal VIPNews - Caderno Viagens - Parte 01"]
+      }, {
+        "title": "Aula 11",
+        "items": ["Jornal VIPNews - Caderno Viagens - Parte 02", "Jornal VIPNews - Caderno Classificados"]
+      }, {
+        "title": "Aula 12",
+        "items": ["Jornal VIPNews - Caderno Publicidade", "Jornal VIPNews - Impressão do Jornal"]
+      }, {
+        "title": "Aula 13",
+        "items": ["Revisão Prática - Parte 01"]
+      }, {
+        "title": "Aula 14",
+        "items": ["Revisão Prática - Parte 02"]
+      }, {
+        "title": "Aula 15",
+        "items": ["Revisão Prática - Parte 03"]
+      }, {
+        "title": "Aula 16",
+        "items": ["Teste de InDesign CS"]
+      }]
+    }, {
+      "name": "Projeto gráfico",
+      "description": "Este curso destina - se àqueles que lidam com programas de design e que pretendem aprimorar seus conhecimentos no processo de criação e desenvolvimento.Com aplicação de várias técnicas, este curso será feito com a utilização simultânea dos softwares: CorelDRAW, InDesign e Photoshop",
+      "classes": [{
+        "title": "Aula 01",
+        "items": ["Projeto Gráfico - Introdução", "Elementos de uma revista", "Como montar uma revista", "Imagens e Páginas"]
+      }, {
+        "title": "Aula 02",
+        "items": ["VipMagazine - Configuração do documento", "VipMagazine - Capa (Parte I)", "VipMagazine - Capa (Parte II)"]
+      }, {
+        "title": "Aula 03",
+        "items": ["VipMagazine - Publicidade (VipClothes) ", "VipMagazine – Índice"]
+      }, {
+        "title": "Aula 04",
+        "items": ["VipMagazine - Mundo (Parte I) ", "VipMagazine - Mundo (Parte II)", "VipMagazine - Mundo (Parte III)"]
+      }, {
+        "title": "Aula 05",
+        "items": ["VipMagazine - Educação (Parte I) ", "VipMagazine - Educação (Parte II)", "VipMagazine - Educação (Parte III)"]
+      }, {
+        "title": "Aula 06",
+        "items": ["VipMagazine - Publicidade (VipChannel) ", "VipMagazine - Economia (Parte I)"]
+      }, {
+        "title": "Aula 07",
+        "items": ["VipMagazine - Economia (Parte II) ", "VipMagazine - Economia (Parte III)"]
+      }, {
+        "title": "Aula 08",
+        "items": ["VipMagazine - Publicidade (Microvip)"]
+      }, {
+        "title": "Aula 09",
+        "items": ["VipMagazine - Esporte (Parte I) ", "VipMagazine - Esporte (Parte II)"]
+      }, {
+        "title": "Aula 10",
+        "items": ["VipMagazine - Entretenimento (Parte I)", "VipMagazine - Entretenimento (Parte II)"]
+      }, {
+        "title": "Aula 11",
+        "items": ["VipMagazine - Emprego (Parte I)", "VipMagazine - Emprego (Parte II)"]
+      }, {
+        "title": "Aula 12",
+        "items": ["VipMagazine - Publicidade (MVSchool)", "VipMagazine – Celebridade"]
+      }, {
+        "title": "Aula 13",
+        "items": ["VipMagazine - Música", "VipMagazine – Brasil"]
+      }, {
+        "title": "Aula 14",
+        "items": ["VipMagazine - Relacionamento", "VipMagazine – Horóscopo"]
+      }, {
+        "title": "Aula 15",
+        "items": ["VipMagazine - Gastronomia ", "VipMagazine - Publicidade (Nook VIP)"]
+      }, {
+        "title": "Aula 16",
+        "items": ["VipMagazine - VipCARD (Parte I)", "VipMagazine - VipCARD (Parte II)"]
+      }, {
+        "title": "Aula 17",
+        "items": ["Empacotar arquivos 38 - VipMagazine - Apresentação (Slide 1)", "VipMagazine - Apresentação (Slide 2)"]
+      }, {
+        "title": "Aula 18",
+        "items": ["VipMagazine - Apresentação (Slide 3)", "VipMagazine - Apresentação (Slide 4)", "VipMagazine - Apresentação (Slide 5 e 6)"]
+      }, {
+        "title": "Aula 19",
+        "items": ["VipMagazine - Apresentação (Slide 7 e 8)", "VipMagazine - Apresentação (Slide 9 e 10)", "VipMagazine - Apresentação (Slide 11 e 12)"]
+      }, {
+        "title": "Aula 20",
+        "items": ["Revisão - Parte I"]
+      }, {
+        "title": "Aula 21",
+        "items": ["Revisão - Parte II"]
+      }, {
+        "title": "Aula 22",
+        "items": ["Prova"]
+      }]
+    }]
+  },
+  "ingles-inteligente": {
+    "name": "Inglês Inteligente",
+    "modules": [{
+      "name": "Em planejamento",
+      "description": "O curso encontra-se em planejamento atualmente."
+    }]
+  }
+}

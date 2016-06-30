@@ -23,8 +23,12 @@ class ContactController extends Controller
         $date = new \DateTime();
         $data['date'] = $date->format('d/m/Y');
         $data['time'] = $date->format('H:i');
+        $error = false;
+
         // $view = view()->make('contact.email', $data);
-        // return $view;
+        // return $view
+        // variavel $message é transformada para Object sem motivo nenhum;
+        // http://stackoverflow.com/questions/19412055/sending-email-with-laravel-but-doesnt-recognize-variable
 
         // Configure and send e-mail
         Mail::send('contact.email', $data, function($message) use ($data) {
@@ -37,6 +41,6 @@ class ContactController extends Controller
 			->subject($subject);
         });
 
-        return 'true';
+        return response()->json(['error' => $error]);
     }
 }
