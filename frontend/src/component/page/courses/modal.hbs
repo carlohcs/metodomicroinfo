@@ -1,0 +1,32 @@
+<div class="about-course-modal animated fadeIn">
+    <div class="modal-header course-modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <i class="fa fa-laptop modal-icon"></i>
+        <h3 class="modal-title">{{name}}</h3>
+    </div>
+
+    {{#each modules}}
+    <div class="course-descriptions" data-toggle="collapse" href="#{{slug name}}">
+        <h3>{{name}}</h3>
+        <h4>{{description}}</h4>
+        <br />
+    </div>
+    <div class="modal-body course-content collapse" id="{{slug name}}">
+        <p>Conteúdo programático:</p>
+        {{#each classes}}
+            <p><strong>{{title}}</strong></p>
+            <ul>
+                {{#each items}}
+                    <li>{{this}}</li>
+                {{/each}}
+            </ul>
+            <hr />
+        {{/each}}
+    </div>
+    <hr />
+    {{/each}}
+
+    <div class="modal-footer">
+        <button type="button" class="btn btn-white" data-dismiss="modal">Fechar</button>
+    </div>
+</div>

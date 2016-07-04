@@ -224,20 +224,26 @@
 .landing-page .start-now p {
   font-size: 30px;
 }
-.course-content hr {
-  margin: 0;
-}
 #cursos i {
   display: none;
 }
-.course-modal-header {
+.about-course-modal .course-modal-header {
   background: #30308a;
   color: #fff;
   border: 0;
 }
-.course-descriptions {
+.about-course-modal .course-descriptions {
   background: #f5863d;
   padding: 20px 30px 0 30px;
   color: #fff;
   cursor: pointer;
+}
+.about-course-modal .course-descriptions ~ hr {
+  margin: 0;
+}
+.inscription-modal .lead {
+  margin-bottom: 10px;
+}
+.inscription-modal .fa {
+  font-size: 20px;
 }

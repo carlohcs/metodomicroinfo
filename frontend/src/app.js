@@ -14,6 +14,5 @@
 
   window.app = app;
 
-
-})(window.jQuery, window.Backbone, Handlebars, window._);
+})(jQuery, Backbone, Handlebars, _);
 

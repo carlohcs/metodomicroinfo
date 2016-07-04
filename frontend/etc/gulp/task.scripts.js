@@ -23,6 +23,9 @@
   gulp.task('scripts:application', () => {
     return gulp.src([
         './src/app.js',
+        './src/component/services/**/*.js',
+        './src/component/shared/view/**/*.js', // A BaseView deve vir antes de seus filhos
+        './src/component/shared/**/*.js',
         './src/component/**/*.js',
       ], {
         base: './'

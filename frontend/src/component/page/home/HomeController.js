@@ -35,4 +35,4 @@
 
 // Just for test
 // Backbone.history.navigate('curso/operador-de-computador-master', {trigger: true});
-})(window.app, jQuery);
+})(app, jQuery);

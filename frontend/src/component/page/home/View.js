@@ -10,6 +10,7 @@
     options: {
       data: {}
     },
+
     /**
      * Construtor
      *
@@ -20,21 +21,15 @@
 
       // Events
       this
-      // .on('render', this._setupUI.bind(this))
         .on('render', this._setupProcessLine)
-        .on('render', this._setupModal)
+        .on('render', this._setupCourseModal)
+        .on('render', this._setupInscriptionModal)
         .on('render', this._setupContactForm.bind(this))
         .render();
     },
-    _setupUI: function() {
-      // UI
-      this.ui = {
-        contactForm: this.$el.find('#contact-frm')
-      };
-    },
+
     /**
-     * Adiciona remove classe para os itens de linha
-     * de processos
+     * Add remove classes to each itens from a row of processing
      *
      * @return {void}
      */
@@ -68,9 +63,15 @@
         processLine();
       });
     },
-    _setupModal: function() {
+
+    /**
+     * Set configurations for modal courses
+     *
+     * @return {void}
+     */
+    _setupCourseModal: function() {
       var
-        $toggleModal = $('a[data-toggle="modal"]');
+        $toggleModal = $('a.course[data-toggle="modal"]');
 
       $toggleModal.on('click', function(e) {
         var
@@ -81,25 +82,59 @@
 
         e.preventDefault();
 
-        $promise = app.service.getCourse(href);
+        $promise = app.service.Courses.getCourse(href);
         $promise
           .then(function(data) {
             var
-              $target = $($el.data('target')),
-              View = app.shared.modal.View,
-              view = new View({
-                data: data
-              });
+              Modal,
+              CoursesModal,
+              modal,
+              coursesModal;
 
-            $target.find('.modal-content')
-              .html(view.$el.html())
-              .end()
-              .modal('show');
+            Modal         = app.shared.Modal;
+            CoursesModal  = app.page.courses.ModalView;
+
+            coursesModal  = new CoursesModal({
+              data: data
+            });
+            modal         = new Modal({
+              view: coursesModal
+            })
+            .show();
           });
       });
     },
+
     /**
-     * Define configurações do form
+     * Set configurations for the inscription modal
+     *
+     * @return {void}
+     */
+    _setupInscriptionModal: function() {
+      var
+        $toggleModal,
+        Modal,
+        InscriptionModal,
+        modal,
+        inscriptionModal;
+
+      $toggleModal = $('a.inscription[data-toggle="modal"]');
+
+      $toggleModal.on('click', function(e) {
+
+        Modal            = app.shared.Modal;
+        InscriptionModal = app.page.inscription.ModalView;
+
+        inscriptionModal = new InscriptionModal();
+        modal            = new Modal({
+          view: inscriptionModal
+        })
+        .show();
+      });
+    },
+
+    /**
+     * Set configurations for form
      *
      * @return {void}
      */
@@ -133,13 +168,10 @@
         },
         validation = new FormValidator($form.get(0), validations, options);
 
-      // form.addEventListener('submit', function(e){
       $form.get(0).submit = function() {
         var
           serializeData = $form.serializeArray(),
           data = {};
-
-        // event.preventDefault();
 
         serializeData.forEach(function(field) {
           data[field.name] = field.value;
@@ -159,11 +191,9 @@
         ContactService = app.ContactService();
 
       function disableForm() {
-        // Enviando
         $contactSendButton
           .button('loading');
 
-        // Desabilita os campos do form
         $form
           .find(fields)
           .prop('disabled', true);
@@ -192,7 +222,6 @@
 
       ContactService.send(data)
         .then(function(response) {
-          console.log('response -> ', response);
           $message
             .addClass('alert-success')
             .find('.message')
@@ -223,4 +252,4 @@
 
   new app.homeView();
 
-})(window.app, jQuery, window.FormValidator);
+})(app, jQuery, FormValidator);

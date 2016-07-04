@@ -1,7 +1,7 @@
-(function(app, $) {
+(function(namespace, $) {
   'use strict';
 
-  app.ContactService = (function() {
+  namespace.ContactService = (function() {
 
     /**
      * Do a request to server
@@ -52,4 +52,4 @@
     };
   });
 
-})(app, jQuery);
+})(app.service = app.service || {}, jQuery);

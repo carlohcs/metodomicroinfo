@@ -1,6 +1,6 @@
 (function(namespace, Handlebars) {
   /**
-   * Retorna uma string no formato "uma-texto-a-ser-formatado"
+   * Return a string with the format "string-to-be-formated"
    *
    * @param  {String} text
    * @param  {Sttring} separador
@@ -13,8 +13,8 @@
     separator = separator || '-';
 
     slugged = text.toLowerCase();
-    slugged = slugged.replace(/\-/g, ''); // Remove '-'
-    slugged = slugged.replace(/\s/g, separator); // Adiciona separador nos espaços
+    slugged = slugged.replace(/\-/g, '');
+    slugged = slugged.replace(/\s/g, separator);
     // Remove acentos
     slugged = slugged.replace(/[áàã]/g, 'a');
     slugged = slugged.replace(/é/g, 'e');
@@ -26,7 +26,7 @@
     return slugged;
   }
 
-  namespace.slug = slug;
+  namespace.Slug = slug;
 
   Handlebars.registerHelper('slug', function(context) {
     return slug(context, '-');
