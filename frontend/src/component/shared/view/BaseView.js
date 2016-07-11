@@ -25,6 +25,8 @@
      * @return {void}
      */
     initialize: function(options) {
+      BaseView.prototype.initialize.apply(this, options);
+
       this.options = options || {};
     },
 
@@ -36,7 +38,6 @@
     render: function() {
       this.$el.html(this.template(this.options.data));
       this.trigger('render');
-      this.trigger('core:view:render');
       return this;
     }
   });

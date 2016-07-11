@@ -24,6 +24,9 @@
       this
         .listenTo(this, RENDER, this._append);
 
+      this.$modalElement
+        .on('hidden.bs.modal', this._destroy.bind(this));
+
       // Events
       this
         ._render();
@@ -35,10 +38,12 @@
      * @return {void}
      */
     initialize: function(options) {
+      BaseView.prototype.initialize.apply(this, options);
+
       this.options = options || {};
 
       // Children view
-      this.view    = options.view;
+      this.view    = options.view.render();
     },
 
     // API
