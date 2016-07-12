@@ -1,12 +1,13 @@
-(function(app, $) {
+(function(namespace, app, $) {
   'use strict';
 
   var
     BaseRouter = Backbone.Router;
-		
-  app.HomeRouter = BaseRouter.extend({
+
+  namespace.HomeRouter = BaseRouter.extend({
     routes: {
-      'curso/:name': 'getCourse'
+      // 'curso/:name': 'getCourse',
+      '*page': 'showPage'
     },
 
     /**
@@ -15,24 +16,26 @@
      * @param  {String} name
      * @return {void}
      */
-    getCourse: function(name) {
-      var
-        $promise;
+    //getCourse: function(name) {
+    //  var
+    //    $promise;
 
-      console.log('Curso -> ', name);
+    //  console.log('Curso -> ', name);
 
-      $promise = app.service.getCourse(name);
-      $promise
-        .then(function(data) {
+    //  $promise = app.service.Courses.getCourse(name);
+    //  $promise
+    //    .then(function(data) {
 
-          console.log("data: ", data);
-        });
-    }
+    //      console.log("data: ", data);
+    //    });
+    //}
   });
 
-  var appRouter = new app.HomeRouter();
+  namespace.routes = namespace.routes || {};
+  namespace.routes.homeRouter = new namespace.HomeRouter();
   app.start();
 
-// Just for test
-// Backbone.history.navigate('curso/operador-de-computador-master', {trigger: true});
-})(app, jQuery);
+  // Just for test
+  // Backbone.history.navigate('curso/operador-de-computador-master', {trigger: true});
+})(app.router = app.router || {}, app, jQuery);
+

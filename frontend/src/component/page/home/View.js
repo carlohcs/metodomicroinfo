@@ -1,10 +1,10 @@
-(function(app, $) {
+(function(namespace, $) {
   'use strict';
 
   var
     BaseView = Backbone.View;
 
-  app.homeView = BaseView.extend({
+  namespace.homeView = BaseView.extend({
     template: app.TPL.component.page.home.view,
     el: '.context-region',
     options: {
@@ -23,9 +23,34 @@
       this
         .on('render', this._setupProcessLine)
         .on('render', this._setupCourseModal)
-        .on('render', this._setupInscriptionModal)
+        .on('render', this._handlePage)
+        // .on('render', this._setupInscriptionModal)
         .on('render', this._setupContactForm.bind(this))
         .render();
+    },
+
+    initialize: function() {
+      var
+        fragment = Backbone.history.fragment,
+        router = namespace.router.routes.homeRouter;
+
+      //this
+      //  .listenTo(router, 'route:showPage', this._handlePage);
+
+      // namespace.router.routes.homeRouter.on('route:showPage', this._handlePage);
+    },
+
+    _handlePage: function() {
+      var
+        url = Backbone.history.fragment,
+        $element = this.$el.find('#' + url);
+
+      if ($element.length) {
+        $('html, body')
+          .stop().animate({
+            scrollTop: $element.offset().top - 50
+          }, 500);
+      }
     },
 
     /**
@@ -91,16 +116,16 @@
               modal,
               coursesModal;
 
-            Modal         = app.shared.Modal;
-            CoursesModal  = app.page.courses.ModalView;
+            Modal = app.shared.Modal;
+            CoursesModal = app.page.courses.ModalView;
 
-            coursesModal  = new CoursesModal({
+            coursesModal = new CoursesModal({
               data: data
             });
-            modal         = new Modal({
-              view: coursesModal
-            })
-            .show();
+            modal = new Modal({
+                view: coursesModal
+              })
+              .show();
           });
       });
     },
@@ -122,14 +147,14 @@
 
       $toggleModal.on('click', function(e) {
 
-        Modal            = app.shared.Modal;
+        Modal = app.shared.Modal;
         InscriptionModal = app.page.inscription.ModalView;
 
         inscriptionModal = new InscriptionModal();
-        modal            = new Modal({
-          view: inscriptionModal
-        })
-        .show();
+        modal = new Modal({
+            view: inscriptionModal
+          })
+          .show();
       });
     },
 
@@ -250,6 +275,7 @@
     }
   });
 
-  new app.homeView();
+  new namespace.homeView();
 
 })(app, jQuery, FormValidator);
+
