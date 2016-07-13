@@ -7,7 +7,9 @@
   namespace.HomeRouter = BaseRouter.extend({
     routes: {
       // 'curso/:name': 'getCourse',
-      '*page': 'showPage'
+      // '*page': 'showPage',
+      '(inicio|metodologia|cursos|contato)': 'showPage',
+      '*undefined': 'notFound'
     },
 
     /**

@@ -37,7 +37,20 @@
       //this
       //  .listenTo(router, 'route:showPage', this._handlePage);
 
-      // namespace.router.routes.homeRouter.on('route:showPage', this._handlePage);
+      //this
+      //  .listenTo(router, 'notFound', this._handleNotFoundPage);
+
+      
+      namespace.router.routes.homeRouter.on('route:notFound', this._handleNotFoundPage);
+      namespace.router.routes.homeRouter.on('route:showPage', this._handleShowPage);
+    },
+
+    _showPage: function(page) {
+      console.warn('showing...>', page);
+    },
+
+    _handleNotFoundPage: function() {
+      console.log('not found');
     },
 
     _handlePage: function() {
