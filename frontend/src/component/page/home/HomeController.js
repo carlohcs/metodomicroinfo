@@ -8,8 +8,11 @@
     routes: {
       // 'curso/:name': 'getCourse',
       // '*page': 'showPage',
-      '(inicio|metodologia|cursos|contato)': 'showPage',
-      '*undefined': 'notFound'
+      '': 'route:found',
+      'inicio': 'route:found',
+      'metodologia': 'route:found',
+      'cursos': 'route:found',
+      'contato': 'route:found'
     },
 
     /**
@@ -34,8 +37,7 @@
   });
 
   namespace.routes = namespace.routes || {};
-  namespace.routes.homeRouter = new namespace.HomeRouter();
-  app.start();
+  namespace.routes.HomeRouter = new namespace.HomeRouter();
 
   // Just for test
   // Backbone.history.navigate('curso/operador-de-computador-master', {trigger: true});

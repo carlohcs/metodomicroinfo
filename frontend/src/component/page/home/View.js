@@ -2,14 +2,11 @@
   'use strict';
 
   var
-    BaseView = Backbone.View;
+    BaseView = namespace.core.BaseView;
 
-  namespace.homeView = BaseView.extend({
+  namespace.HomeView = BaseView.extend({
     template: app.TPL.component.page.home.view,
     el: '.context-region',
-    options: {
-      data: {}
-    },
 
     /**
      * Construtor
@@ -29,29 +26,20 @@
         .render();
     },
 
-    initialize: function() {
-      var
+    initialize: function(options) {
+      BaseView.prototype.initialize.apply(this, options);
+
+      /*var
         fragment = Backbone.history.fragment,
-        router = namespace.router.routes.homeRouter;
+        router = namespace.router.routes.homeRouter;*/
 
-      //this
-      //  .listenTo(router, 'route:showPage', this._handlePage);
-
-      //this
-      //  .listenTo(router, 'notFound', this._handleNotFoundPage);
-
-      
-      namespace.router.routes.homeRouter.on('route:notFound', this._handleNotFoundPage);
-      namespace.router.routes.homeRouter.on('route:showPage', this._handleShowPage);
+      // app.on('route:found', this._toggleNotFoundClass.bind(this, false));
+      // app.on('route:notFound', this._toggleNotFoundClass.bind(this, true));
     },
 
-    _showPage: function(page) {
-      console.warn('showing...>', page);
-    },
-
-    _handleNotFoundPage: function() {
-      console.log('not found');
-    },
+    //_toggleNotFoundClass: function(toggle) {
+    //  $('.landing').toggleClass('not-found', toggle);
+    //},
 
     _handlePage: function() {
       var
@@ -280,15 +268,8 @@
 
           enableForm();
         });
-    },
-    render: function() {
-      this.$el.html(this.template(this.options.data));
-      this.trigger('render');
-      return this;
     }
   });
-
-  new namespace.homeView();
 
 })(app, jQuery, FormValidator);
 

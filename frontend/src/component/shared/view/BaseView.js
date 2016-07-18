@@ -36,7 +36,7 @@
      * @return {void}
      */
     render: function() {
-      this.$el.html(this.template(this.options.data));
+      this.$el.html(this.template(this.options));
       this.trigger('render');
       return this;
     }

@@ -47,6 +47,10 @@ this["Handlebars"]["templates"]["component"]["page"]["courses"]["modal"] = Handl
     + ((stack1 = helpers.each.call(depth0,(depth0 != null ? depth0.modules : depth0),{"name":"each","hash":{},"fn":this.program(1, data, 0),"inverse":this.noop,"data":data})) != null ? stack1 : "")
     + "\n    <div class=\"modal-footer\">\n        <button type=\"button\" class=\"btn btn-white\" data-dismiss=\"modal\">Fechar</button>\n    </div>\n</div>\n";
 },"useData":true});
+this["Handlebars"]["templates"]["component"]["page"]["errors"] = this["Handlebars"]["templates"]["component"]["page"]["errors"] || {};
+this["Handlebars"]["templates"]["component"]["page"]["errors"]["pageNotFound"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
+    return "<div class=\"error-container middle-box text-center animated fadeInDown\">\n    <h1 class=\"header-hero\">404</h1>\n    <h2 class=\"font-bold\">Página não encontrada</h2>\n    <div class=\"error-desc\">\n        <h3>\n            Desculpa, a página que você está procurando não foi encontrada.\n        </h3>\n        <h4>Verifique a URL e tente novamente.</h4>\n        <br />\n        <a href=\"/\" class=\"btn btn-primary\">\n            Ir para a página principal\n        </a>\n    </div>\n</div>\n";
+},"useData":true});
 this["Handlebars"]["templates"]["component"]["page"]["home"] = this["Handlebars"]["templates"]["component"]["page"]["home"] || {};
 this["Handlebars"]["templates"]["component"]["page"]["home"]["view"] = Handlebars.template({"compiler":[6,">= 2.0.0-beta.1"],"main":function(depth0,helpers,partials,data) {
     var helper;

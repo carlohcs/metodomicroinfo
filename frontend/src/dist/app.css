@@ -4,6 +4,9 @@
 @import '../../vendors/inspinia/inspinia.css';
 @import '../../vendors/inspinia/style.css';
 
+.landing-page.not-found {
+  background: url('/src/img/avatar_all.png');
+}
 .landing-page section p {
   font-size: 16px;
   color: #333;
@@ -33,6 +36,12 @@
   text-transform: uppercase;
   text-shadow: none;
   letter-spacing: -1.5px;
+}
+.landing-page .error-container {
+  padding: 50px;
+}
+.landing-page .error-container .header-hero {
+  font-size: 72px;
 }
 
 .footer {

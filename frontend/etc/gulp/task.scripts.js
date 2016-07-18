@@ -3,6 +3,7 @@
   import concat from 'gulp-concat';
   import sourcemaps from 'gulp-sourcemaps';
   import jshint from 'gulp-jshint';
+  import plumber from 'gulp-plumber';
 
   gulp.task('scripts:base', () => {
     return gulp.src([
@@ -23,14 +24,16 @@
   gulp.task('scripts:application', () => {
     return gulp.src([
         './src/app.js',
+        './src/page/home/HomeController.js',
         './src/component/services/**/*.js',
         './src/component/shared/view/**/*.js', // A BaseView deve vir antes de seus filhos
         './src/component/shared/**/*.js',
-        './src/component/page/home/HomeController.js',
-        './src/component/**/*.js'
+        './src/component/**/*.js',
+        './src/bootstrap.js'
       ], {
         base: './'
       })
+      .pipe(plumber())
       .pipe(jshint())
       .pipe(sourcemaps.init())
       .pipe(uglify())

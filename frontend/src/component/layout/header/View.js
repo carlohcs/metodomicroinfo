@@ -35,11 +35,16 @@
           var
             $target = $(ev.currentTarget),
             selector = $target.attr('href'),
-            $item = $(selector);
+            $item = $(selector),
+            trigger = $('.landing-page').hasClass('not-found'); // temporarily
 
           ev.preventDefault();
 
-          this._handleUrl(selector);
+          if(trigger) {
+            return this._handleUrl(selector, true);
+          }
+
+          this._handleUrl(selector, false);
 
           $('html, body')
             .stop().animate({
@@ -59,9 +64,15 @@
         offset: 70
       });
     },
-    _handleUrl: function(link) {
-      app.router.routes.homeRouter
-        .navigate(link);
+    _handleUrl: function(link, trigger) {
+      var
+        router = app.router.routes.HomeRouter;
+
+      if (!trigger) {
+        return router.navigate(link);
+      }
+
+      router.navigate(link, {trigger: true});
     },
     render: function() {
       this.$el.html(this.template(this.options.data));
