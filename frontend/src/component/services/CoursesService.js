@@ -23,7 +23,8 @@
           };
 
         $.ajax({
-            url: baseUrl + 'data/courses'
+            url: baseUrl + 'data/courses',
+            crossDomain: true
           })
           .then(then)
           .fail(fail);
