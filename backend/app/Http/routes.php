@@ -11,14 +11,17 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/', function() {
     return view('welcome');
 });
 
-Route::post('/contact', 'ContactController@sendContact');
-Route::get('/data/courses', function() {
+Route::group(['middleware' => 'cors'], function() {
 
-    $courses = Storage::disk('local')->get('public/courses.json');
+    Route::post('/contact', 'ContactController@sendContact');
+    Route::get('/data/courses', function() {
+        $courses = Storage::disk('local')->get('public/courses.json');
 
-    return Response::json($courses);
+        return Response::json($courses);
+    });
+
 });
