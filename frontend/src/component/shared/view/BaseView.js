@@ -12,10 +12,6 @@
      */
     constructor: function() {
       BaseView.apply(this, arguments);
-
-      // Events
-      this
-        .render();
     },
 
     /**
@@ -28,6 +24,10 @@
       BaseView.prototype.initialize.apply(this, options);
 
       this.options = options || {};
+
+      // Events
+      this
+        .render();
     },
 
     /**
@@ -36,7 +36,8 @@
      * @return {void}
      */
     render: function() {
-      this.$el.html(this.template(this.options));
+
+      this.$el.html(this.template(this.options.data));
       this.trigger('render');
       return this;
     }

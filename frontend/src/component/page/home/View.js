@@ -214,7 +214,7 @@
         $form = $('#contact-frm'),
         fields = '[name="name"], [name="email"], [name="phone"], [name="comment"]',
         $message = $('#contact-message'),
-        ContactService = app.ContactService();
+        ContactService = app.service.ContactService();
 
       function disableForm() {
         $contactSendButton

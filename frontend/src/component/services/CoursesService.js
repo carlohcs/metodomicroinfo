@@ -14,9 +14,10 @@
         var
           $defer = $.Deferred(),
           then = function(data) {
-            data = JSON.parse(data);
+            var
+              parse = JSON.parse(data);
 
-            return $defer.resolve(data[name]).promise();
+            return $defer.resolve(parse[name]).promise();
           },
           fail = function(error) {
             return $defer.reject(error).promise();
