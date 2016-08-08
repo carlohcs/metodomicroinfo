@@ -37,7 +37,7 @@ class ContactController extends Controller
             $message->from('contato@metodomicroinfo.com.br',
                 $subject);
 
-            $message->to('carlohcs@gmail.com', $data['name'])
+            $message->to(env('MAIL_USERNAME'), $data['name'])
 			->subject($subject);
         });
 
